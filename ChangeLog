@@ -1,0 +1,3061 @@
+2020-05-28 07:59:29 +0200 Mike Gabriel
+
+	* release 0.1.0 (HEAD -> master, tag: 0.1.0)
+
+2020-05-28 07:52:14 +0200 Mike Gabriel (81ec4c1)
+
+	* NEWS: start with empty file
+
+2020-05-27 06:13:46 +0000 Mike Gabriel (1e0b9f2)
+
+	* tests/url_dispatcher_testability: Disable build time tests (they
+          require a systemd user session, it seems) and drop
+          test_fake_disptacher.py from installation path, it
+          contains build time cruft.
+
+2020-05-27 06:12:44 +0000 Mike Gabriel (c993efe)
+
+	* development file: Drop API_VERSION from file names and paths.
+
+2020-05-27 06:11:16 +0000 Mike Gabriel (aae06c3)
+
+	* tests/url-db-test.cc: Don't hard-code DB_SCHEMA_VERSION.
+
+2020-05-20 18:39:24 +0200 Mike Gabriel (bba45cd)
+
+	* Fork url-dispatcher as lomiri-url-dispatcher.
+
+2018-10-07 07:36:18 -0400 Rodney (b9a83f5)
+
+	* Remove scopes checker. (#6)
+
+2018-06-12 18:28:57 +0200 Marius Gripsgard (f7b7e00)
+
+	* Merge pull request #3 from vanyasem/bionic
+
+2018-06-11 17:38:57 +0300 Ivan Semkin (9a46599)
+
+	* Force rerun the CI
+
+2018-06-11 17:38:43 +0300 Ivan Semkin (2e08ddb)
+
+	* Force rerun the CI
+
+2018-06-08 23:16:16 +0300 Ivan Semkin (b3df852)
+
+	* Add missing -pthread flag
+
+2018-06-04 05:47:08 +0100 Dan Chapman (2b0df70)
+
+	* Merge pull request #1 from dobey/no-whoopsie
+
+2018-06-02 14:06:20 -0400 Rodney Dawes (e8cf0dc)
+
+	* Add missing include.
+
+2018-06-02 13:56:05 -0400 Rodney Dawes (0f806e7)
+
+	* Remove dependency on whoopsie.
+
+2018-02-13 20:18:25 +0100 Marius Gripsgard (679c9bf)
+
+	* Release for bionic
+
+2018-02-13 20:18:11 +0100 Marius Gripsgard (be23010)
+
+	* Merge remote-tracking branch 'u8/master' into bionic
+
+2017-12-28 19:36:46 +0100 Marius Gripsgard (ca7eb5d)
+
+	* Update Jenkinsfile
+
+2017-10-13 19:54:36 +0200 Marius Gripsgard (7fab611)
+
+	* Imported to UBports
+
+2017-03-28 18:29:08 +0000 Bileto Bot (809126e)
+
+	* Releasing 0.1+17.04.20170328-0ubuntu1
+
+2017-03-28 18:28:21 +0000 Rodney Dawes (1d12c44)
+
+	* Convert service main process and url-dispatcher tool code to C++.
+
+2017-03-28 18:28:11 +0000 Rodney Dawes (5b86338)
+
+	* Use libwhoopsie for reporting recoverable problems.
+
+2017-03-28 18:28:04 +0000 Rodney Dawes (26cbec8)
+
+	* The unity8-dash interface is actually com.canonical.UnityDash.
+
+2017-03-28 18:28:00 +0000 Rodney Dawes (47108da)
+
+	* Fix deprecation warning in mir mock.
+
+2017-03-18 19:59:27 +0000 Bileto Bot (decb1d7)
+
+	* Releasing 0.1+17.04.20170318-0ubuntu1
+
+2017-03-18 19:58:40 +0000 Ted Gould (e8ec068)
+
+	* Remove Upstart from the test suite and replace it with systemd
+
+2017-03-18 19:58:36 +0000 Ted Gould (010cb62)
+
+	* Update bad-url exec tool to UAL C++ interface
+
+2017-03-17 10:12:52 -0500 Ted Gould (5259653)
+
+	* Remove tabs for dobey
+
+2017-03-17 09:43:43 -0500 Ted Gould (432a135)
+
+	* Turn UAL up to 11
+
+2017-03-17 09:11:13 -0500 Ted Gould (f4efef6)
+
+	* Make return values clearer
+
+2017-03-16 16:53:08 -0500 Ted Gould (b3d42d3)
+
+	* Fix up the service test to not use Upstart
+
+2017-03-16 13:55:48 -0500 Ted Gould (74ec78c)
+
+	* This test no longer does anything useful
+
+2017-03-16 13:19:21 -0500 Ted Gould (52fea44)
+
+	* Make the icon have a white background for the U8 launcher
+
+2017-03-16 13:07:24 -0500 Ted Gould (3ef6ffe)
+
+	* Make the test GUI single instance
+
+2017-03-16 13:06:43 -0500 Ted Gould (3d76545)
+
+	* Simplify the exec tool with C++ UAL API
+
+2017-03-15 15:45:36 -0400 Rodney Dawes (c29bbe8)
+
+	* Convert the service main process code to c++.
+
+2017-03-15 10:53:26 -0400 Rodney Dawes (a8fa4dd)
+
+	* Add test for calling url-dispatcher without args.
+
+2017-03-14 22:55:12 -0400 Rodney Dawes (073e95e)
+
+	* Convert the url-dispatcher tool to C++.
+
+2017-03-14 17:03:30 -0400 Rodney Dawes (97539bf)
+
+	* Fix indentation.
+
+2017-03-14 16:59:09 -0400 Rodney Dawes (5ffa295)
+
+	* Fix deprecation warning in mir mock.
+
+2017-03-14 16:13:13 -0400 Rodney Dawes (74438d6)
+
+	* The unity8-dash interface is actually com.canonical.UnityDash.
+
+2017-03-14 10:44:58 -0400 Rodney Dawes (56fac2e)
+
+	* Use libwhoopsie for reporting recoverable problems.
+
+2017-03-14 14:35:04 +0000 Bileto Bot (66ba2e1)
+
+	* Releasing 0.1+17.04.20170314-0ubuntu1
+
+2017-03-14 14:34:21 +0000 Rodney Dawes (24dd1e4)
+
+	* Remove unused gsettings cmake module.
+
+2017-03-14 14:34:17 +0000 Rodney Dawes (c1d4cd0)
+
+	* Use gdbus integration from cmake-extras.
+
+2017-03-14 14:34:06 +0000 Rodney Dawes (06fb2b6)
+
+	* Use cmake-extras intltool support. Enable langpack support.
+
+2017-03-14 14:34:00 +0000 Rodney Dawes (b2f16e9)
+
+	* Use the coverage support from cmake-extras.
+
+2017-03-14 14:33:45 +0000 Rodney Dawes (fbcadbc)
+
+	* Use gmock module from cmake-extras.
+
+2017-03-14 14:33:40 +0000 Rodney Dawes (d71bd4d)
+
+	* Remove click usage and support.
+
+2017-03-14 14:33:28 +0000 Charles Kerr (f41cef9)
+
+	* Honor XDG_CACHE_HOME in url-dispatcher-dump and url-dispatcher.conf
+
+2017-03-14 10:31:35 -0400 Rodney Dawes (1910a11)
+
+	* Merge up changes from parents.
+
+2017-03-13 11:28:20 -0400 Rodney Dawes (013ec5d)
+
+	* Fix the conflict.
+
+2017-03-10 18:54:46 -0500 Rodney Dawes (ec688cc)
+
+	* Remove a couple more references to click.
+
+2017-03-10 18:52:11 -0500 Rodney Dawes (845a4aa)
+
+	* Override ubuntu_app_launch_triplet_to_app_id for the app id tests.
+          Remove the extraneous app-id tess which are testing ual,
+          not url-dispatcher. Put a few app id tests in dispatcher
+          tests to cover dispatcher_url_to_appid.
+
+2017-03-09 17:21:52 -0500 Rodney Dawes (5d85a07)
+
+	* Merge trunk.
+
+2017-03-08 20:43:30 +0000 Bileto Bot (211eb2c)
+
+	* Releasing 0.1+17.04.20170308.1-0ubuntu1
+
+2017-03-08 20:43:15 +0000 Rodney Dawes (dabc07d)
+
+	* Don't use upstart to get unity8 pid.
+
+2017-03-08 15:41:44 -0500 Rodney Dawes (76328d4)
+
+	* Fix more indentation.
+
+2017-03-08 15:40:26 -0500 Rodney Dawes (c09d463)
+
+	* Fix indentation in dispatch_send_to_overlay
+
+2017-03-08 15:36:51 -0500 Rodney Dawes (b15118b)
+
+	* Get the unity8 pid from dbus instead.
+
+2017-03-08 12:44:20 -0500 Rodney Dawes (4e47f35)
+
+	* Don't run initctl in the python test.
+
+2017-03-08 10:08:35 -0500 Rodney Dawes (d2b85ec)
+
+	* Fix indentation for one line in tab-infested code.
+
+2017-03-08 09:54:40 -0500 Rodney Dawes (66d6f7e)
+
+	* Don't use upstart to get unity8 pid.
+
+2017-03-06 14:30:57 -0500 Rodney Dawes (ac9aa7c)
+
+	* Remove unused gsettings cmake module.
+
+2017-03-06 14:28:41 -0500 Rodney Dawes (93d3879)
+
+	* Use gdbus integration from cmake-extras.
+
+2017-03-06 14:15:58 -0500 Rodney Dawes (869ff24)
+
+	* Merge up fix-coverage.
+
+2017-03-06 13:59:18 -0500 Rodney Dawes (d508136)
+
+	* Remove extraneous comment about coverage.
+
+2017-03-03 17:24:05 -0500 Rodney Dawes (5978d10)
+
+	* Use cmake-extras intltool support. Enable langpack support.
+
+2017-03-03 16:49:10 -0500 Rodney Dawes (e59e2fa)
+
+	* Oops, use the right variable for tests.
+
+2017-03-03 16:40:40 -0500 Rodney Dawes (7e44785)
+
+	* Use the coverage support from cmake-extras.
+
+2017-03-03 15:55:56 -0500 Rodney Dawes (54ffcc8)
+
+	* Use gmock module from cmake-extras.
+
+2017-02-28 16:49:38 -0500 Rodney Dawes (afc5cc4)
+
+	* Remove click usage and support.
+
+2017-02-27 19:07:50 +0000 Bileto Bot (239ee4b)
+
+	* Releasing 0.1+17.04.20170227.2-0ubuntu1
+
+2017-02-27 19:07:21 +0000 Rodney Dawes (66b207d)
+
+	* Remove tests that depend on libertine, as url-dispatcher has no
+          support for handlers in libertine anyway.
+
+2017-02-27 19:07:17 +0000 Ken VanDine (0519511)
+
+	* Handle UAL API bump
+
+2017-02-27 13:55:00 -0500 Rodney Dawes (0cc188f)
+
+	* Actually, just remove the test, as url-dispatcher doesn't support
+          libertine.
+
+2017-02-27 13:19:37 -0500 Rodney Dawes (0ea1bc0)
+
+	* Temporarily disable the tests which depend on libertine.
+
+2017-02-27 09:28:12 -0500 Ken VanDine (6fb0117)
+
+	* Handle UAL API bump
+
+2016-12-06 14:38:17 +0000 Bileto Bot (248b69f)
+
+	* Releasing 0.1+17.04.20161206-0ubuntu1
+
+2016-12-06 14:37:44 +0000 Ted Gould (6486c6c)
+
+	* Start after Unity8 so it has a chance to set the MIR_SOCKET
+
+2016-12-06 14:37:36 +0000 Ted Gould (4a0d979)
+
+	* Instead of sleeping make the refresh tasks low enough priority they
+          don't get in the way (LP: #1645793)
+
+2016-12-01 09:35:23 -0600 Ted Gould (bf0f9a2)
+
+	* Stop on U8 as well
+
+2016-11-16 17:09:49 -0600 Ted Gould (7d86c79)
+
+	* Make sure that U8 has set the proper MIR_SOCKET
+
+2016-11-10 11:18:33 -0600 Charles Kerr (1c09331)
+
+	* sync with trunk
+
+2016-11-10 10:58:33 -0600 Ted Gould (4f52f41)
+
+	* Instead of sleeping make the refresh tasks low enough priority they
+          don't get in the way
+
+2016-11-08 22:16:57 +0000 Bileto Bot (c1ec36b)
+
+	* Releasing 0.1+17.04.20161108-0ubuntu1
+
+2016-11-08 22:16:38 +0000 Michael Terry (5570781)
+
+	* Support running inside a snap.
+
+2016-11-08 17:14:54 -0500 Michael Terry (810cbba)
+
+	* Merge from trunk
+
+2016-11-08 14:53:01 -0500 Michael Terry (df55821)
+
+	* Drop env var in 'start on' stanza -- doesn't work, and isn't needed
+          in snap mode anyway
+
+2016-11-07 16:33:15 +0000 Bileto Bot (5d3c184)
+
+	* Releasing 0.1+17.04.20161107-0ubuntu1
+
+2016-11-07 16:33:03 +0000 Bileto Bot (bd5b9bb)
+
+	* * Crossbuilding Fixes * App ID should allow package names with
+          dots. (LP: #1591342) (LP: #1606498) * Check versions of
+          appid:// urls to reduce the number of invalid appids   we
+          send to UAL (LP: #1352656) * Scope testing for the
+          scope:// URL and overlays that should be over   the dash *
+          Protect the dash from getting NULL urls (LP: #1476257) *
+          Make sure URL Overlays are shutdown on exit * Remove the
+          wildcard that is confusing the update script (LP:
+          #1461496) * Not using a message that isn't set properly
+          (LP: #1608009) * Fixing tests to adjust for UAL changes *
+          Add a small GUI helper tool for testing * Show error
+          dialog over apps that use Bad URLs (LP: #1370008)
+
+2016-11-07 10:29:51 -0600 Ted Gould (aba0d65)
+
+	* Be more specific so that the packages don't conflict
+
+2016-11-03 11:13:56 -0500 Ted Gould (b98bb99)
+
+	* Fixes from review
+
+2016-11-02 14:44:08 -0500 Ted Gould (b652716)
+
+	* Fixing multiple lookups
+
+2016-11-02 14:19:33 -0500 Ted Gould (4470879)
+
+	* Fixing cast to be more C++-ish
+
+2016-09-23 15:02:24 -0400 Michael Terry (7bd2774)
+
+	* Support snap paths if we're running in one
+
+2016-09-20 16:50:14 -0500 Ted Gould (40935b3)
+
+	* Forgot the container config
+
+2016-09-20 16:33:45 -0500 Ted Gould (85bbec6)
+
+	* Merge issues from trunk
+
+2016-09-20 16:23:54 -0500 Ted Gould (a1cf515)
+
+	* Updating changelog to have all the branches in it
+
+2016-09-20 16:15:10 -0500 Ted Gould (706d753)
+
+	* Fixing the environment for the appid test
+
+2016-08-30 12:00:05 -0500 Ted Gould (8357838)
+
+	* Bad URL prompt
+
+2016-08-30 11:59:00 -0500 Ted Gould (4ea4ea3)
+
+	* Merge lp:~ted/url-dispatcher/gui-tool/
+
+2016-08-30 11:58:30 -0500 Ted Gould (018eedf)
+
+	* Merge lp:~ted/url-dispatcher/ual-snappy-autopkgtest/
+
+2016-08-30 11:57:18 -0500 Ted Gould (ba82665)
+
+	* Merge lp:~ted/url-dispatcher/lp1608009-no-message/
+
+2016-08-30 11:55:42 -0500 Ted Gould (999808b)
+
+	* Merge lp:~larryprice/url-dispatcher/appid-with-dots
+
+2016-08-30 11:27:12 -0500 Ted Gould (84c984c)
+
+	* Merge lp:~ted/url-dispatcher/update-no-wildcard
+
+2016-08-30 11:26:43 -0500 Ted Gould (b2a9ed7)
+
+	* Merge lp:~ted/url-dispatcher/kill-helpers-on-exit
+
+2016-08-30 11:26:26 -0500 Ted Gould (0a1f2f8)
+
+	* Merge lp:~ted/url-dispatcher/lp1476257-activate-dash-desktop
+
+2016-08-30 11:25:17 -0500 Ted Gould (1102fd4)
+
+	* Merge lp:~ted/url-dispatcher/is-scope-check
+
+2016-08-30 11:24:46 -0500 Ted Gould (4886988)
+
+	* Merge lp:~ted/url-dispatcher/check-appid-urls
+
+2016-08-30 11:20:10 -0500 Ted Gould (ca1bd7f)
+
+	* Merge lp:~fboucault/url-dispatcher/crossbuild_fixes
+
+2016-08-30 11:06:42 -0500 Ted Gould (90737ea)
+
+	* Grab the crossbuild branch to resolve conflicts
+
+2016-08-26 23:16:50 -0500 Charles Kerr (7dc0932)
+
+	* honor /tmp/charles-cache and /home/charles when referencing
+          urls-1.db
+
+2016-08-18 09:20:58 -0500 Ted Gould (30165ca)
+
+	* Adding some translation framework
+
+2016-08-17 21:11:21 -0500 Ted Gould (4fa4e88)
+
+	* Make it so that we can get translations for these strings
+
+2016-08-17 21:05:35 -0500 Ted Gould (60ab817)
+
+	* Make sure to only have the protocol in the error
+
+2016-08-17 17:13:46 -0500 Ted Gould (79a1bdd)
+
+	* Add the GUI package
+
+2016-08-17 17:13:32 -0500 Ted Gould (f9f9e65)
+
+	* Fix the prefix
+
+2016-08-17 17:00:22 -0500 Ted Gould (5e18db3)
+
+	* Adding a GUI tool for sending URLs
+
+2016-08-16 16:06:59 -0500 Ted Gould (c070eac)
+
+	* Installing the apparmor profile
+
+2016-08-16 15:15:49 -0500 Ted Gould (50581a5)
+
+	* Fix the control file
+
+2016-08-16 14:09:24 -0500 Ted Gould (aa5ad4f)
+
+	* Move all the overlay management into common functions
+
+2016-08-16 15:20:27 +0000 Bileto Bot (10348c8)
+
+	* Releasing 0.1+16.10.20160816.1-0ubuntu1
+
+2016-08-16 15:20:14 +0000 Bileto Bot (7050020)
+
+	* * No chnage rebuild for UAL migration * No change rebuild for
+          s390x.
+
+2016-08-16 10:18:54 -0500 Ted Gould (810484a)
+
+	* No chnage rebuild for UAL migration
+
+2016-08-16 09:56:24 -0500 Ted Gould (d33c261)
+
+	* Catching up a version
+
+2016-08-15 19:48:31 -0500 Ted Gould (3529c8b)
+
+	* Grabbing the snappy test fix branch
+
+2016-08-15 18:48:37 -0500 Ted Gould (2252b5a)
+
+	* Adding in apparmor config for the helper
+
+2016-08-15 18:33:42 -0500 Ted Gould (b2bec40)
+
+	* Switch the AppID to be something defined staticly
+
+2016-08-15 16:31:40 -0500 Ted Gould (4c85d82)
+
+	* Looks like a large rename, but I started this revision months ago
+          and just got back to it, not entirely sure
+
+2016-08-15 11:56:02 -0500 Ted Gould (259fa10)
+
+	* Fixing the service test
+
+2016-08-15 11:54:51 -0500 Ted Gould (456e64c)
+
+	* Make the appid tests happy
+
+2016-08-15 08:57:47 -0500 Ted Gould (5794273)
+
+	* Not using a message that isn't set properly
+
+2016-08-10 17:05:12 -0500 Ted Gould (31d86d1)
+
+	* Adding a TODO for using the GMock based mock
+
+2016-08-10 16:55:50 -0500 Ted Gould (f50cd45)
+
+	* 2016
+
+2016-08-10 16:54:55 -0500 Ted Gould (df42f0c)
+
+	* Use the C99 bool type
+
+2016-08-10 16:48:44 -0500 Ted Gould (e7ceeb1)
+
+	* Use default constructor/destructors
+
+2016-08-10 16:45:40 -0500 Ted Gould (58cc23d)
+
+	* Learn real good like what year it is
+
+2016-08-10 16:44:37 -0500 Ted Gould (6b8d83b)
+
+	* Vertically compress code
+
+2016-08-10 14:27:41 -0500 Ted Gould (20c1899)
+
+	* Fix build type check
+
+2016-08-10 13:38:30 -0500 Ted Gould (da6e371)
+
+	* Merge trunk
+
+2016-08-09 17:06:47 -0500 Ted Gould (1b00d39)
+
+	* Update to trunk and resolve conflicts
+
+2016-08-09 17:01:51 -0500 Ted Gould (f37afd3)
+
+	* Combine the checks on out_appid
+
+2016-08-09 16:58:58 -0500 Ted Gould (8691682)
+
+	* Updating to current trunk
+
+2016-08-08 11:51:23 -0500 Ted Gould (61dd1ca)
+
+	* No change rebuild
+
+2016-08-04 14:12:29 -0400 Larry Price (971d6aa)
+
+	* Adding test
+
+2016-08-04 13:51:08 -0400 Larry Price (3edda49)
+
+	* Accept '.' in appid for libertine apps
+
+2016-07-19 23:01:20 +0200 Florian Boucault (03974b9)
+
+	* Crossbuilding fixes.
+
+2015-11-10 14:37:07 +0000 CI Train Bot (9f18bac)
+
+	* Releasing 0.1+16.04.20151110-0ubuntu1
+
+2015-11-10 14:37:05 +0000 Ted Gould (4c71c44)
+
+	* Remove the cache if the service fails to start. Fail to start if we
+          can't create the database. Fixes: #1483854 Approved by: PS
+          Jenkins bot, Ken VanDine
+
+2015-11-06 17:05:12 -0600 Ted Gould (50c8473)
+
+	* Make sure to exit with the code from the service
+
+2015-11-06 17:02:46 -0600 Ted Gould (9c207ea)
+
+	* Use -ne
+
+2015-11-06 17:01:58 -0600 Ted Gould (577fa24)
+
+	* Attaching bug
+
+2015-11-06 16:59:11 -0600 Ted Gould (ee73f5f)
+
+	* Test the status of URL dispatcher instead of relying on a fail from
+          Upstart
+
+2015-09-04 14:55:46 -0500 Ted Gould (e1ab562)
+
+	* Catch stopping instead of stopped
+
+2015-09-04 14:53:45 -0500 Ted Gould (88a9964)
+
+	* These aren't used because the refresh happens when the new instance
+          starts
+
+2015-09-04 10:12:44 -0500 Ted Gould (20fff91)
+
+	* Adding in an extra job instead
+
+2015-09-03 16:56:05 -0500 Ted Gould (04c295c)
+
+	* Make stopping with failure clean the cache and rebuild it
+
+2015-09-03 16:50:06 -0500 Ted Gould (dd5e642)
+
+	* Make it so that if DB creation fails we die
+
+2015-08-29 13:01:52 -0500 Ted Gould (d022e75)
+
+	* Getting a map in there
+
+2015-08-29 18:43:08 +0100 Ted Gould (17cda01)
+
+	* Convert the overlays to using a structure
+
+2015-08-29 16:11:59 +0100 Ted Gould (4a04b91)
+
+	* Setting up Mir test for both types of TPS
+
+2015-08-29 15:59:22 +0100 Ted Gould (0c5f900)
+
+	* Adding to Bad URL to the UAL signal stop tests
+
+2015-08-28 17:59:26 +0100 Ted Gould (96293c3)
+
+	* Fixes to make everything work again with the tests.
+
+2015-08-28 17:08:29 +0100 Ted Gould (d1a3576)
+
+	* Connect in the bad overlay dialog
+
+2015-08-28 17:04:12 +0100 Ted Gould (282dfa2)
+
+	* Adding in the bad URL tracker
+
+2015-07-21 13:40:09 -0500 Ted Gould (68b9089)
+
+	* Protect the dash from getting NULL urls
+
+2015-07-17 12:37:44 +0000 CI Train Bot (7d5b02f)
+
+	* Releasing 0.1+15.10.20150717-0ubuntu1
+
+2015-07-17 12:37:41 +0000 Andreas Pokorny (48e5f35)
+
+	* unchagned for mir release 0.14.0 Approved by: PS Jenkins bot
+
+2015-06-26 08:58:16 -0500 Ted Gould (55542bc)
+
+	* Forgot license headers
+
+2015-06-26 08:28:01 -0500 Ted Gould (2a8eb7b)
+
+	* Putting in a test that handles the case of overlaying on top of the
+          Dash
+
+2015-06-26 08:27:22 -0500 Ted Gould (caa3c8b)
+
+	* Sending a SIGTERM so that we can write out coverage results
+
+2015-06-25 22:57:05 -0500 Ted Gould (7a367f3)
+
+	* Fix to use the memory we kept
+
+2015-06-25 21:53:19 -0500 Ted Gould (8af73da)
+
+	* Adding some bad testing and ensuring we're allowing underscores for
+          scopes
+
+2015-06-25 17:07:08 -0500 Ted Gould (841d8ad)
+
+	* Basic scope test
+
+2015-06-25 17:06:34 -0500 Ted Gould (b0f09bd)
+
+	* Scope metadata is a 0%)#$&!(#$
+
+2015-06-25 16:49:00 -0500 Ted Gould (223a8fd)
+
+	* Only clear the data if there is a place to clear
+
+2015-06-25 16:46:52 -0500 Ted Gould (9786a8c)
+
+	* Make it so we don't inherit from the shared_ptr
+
+2015-06-25 15:40:09 -0500 Ted Gould (b9e30f8)
+
+	* Make it so that the mock can take exceptions
+
+2015-06-25 15:13:49 -0500 Ted Gould (78bcf40)
+
+	* Made an insertable mock
+
+2015-06-25 15:10:57 -0500 Ted Gould (96e3228)
+
+	* Inserting a facade so that we can test this. So stupid.
+
+2015-06-25 12:15:09 +0200 Andreas Pokorny (74f358e)
+
+	* unchanged for mir release 0.14.0
+
+2015-06-23 14:29:43 -0500 Ted Gould (9518841)
+
+	* Trying to get some scope mocking in here
+
+2015-06-22 19:54:01 -0500 Ted Gould (a342ac4)
+
+	* Don't leak memory
+
+2015-06-22 19:51:18 -0500 Ted Gould (6d544df)
+
+	* Warnings on bad parameters
+
+2015-06-22 19:32:34 -0500 Ted Gould (7f0763e)
+
+	* Sneaky Tabs
+
+2015-06-22 19:28:59 -0500 Ted Gould (b893a51)
+
+	* Don't need to protect delete from nullptr
+
+2015-06-22 19:27:56 -0500 Ted Gould (a36a021)
+
+	* Warning if something other than NotFound
+
+2015-06-22 14:28:08 -0500 Ted Gould (e3912d1)
+
+	* Scope is now a keyword, let's avoid it.
+
+2015-06-22 14:25:19 -0500 Ted Gould (150b872)
+
+	* Comment to help the next guy/gal
+
+2015-06-22 14:24:25 -0500 Ted Gould (09a82e7)
+
+	* Support disabing scope checking for testing
+
+2015-06-22 14:12:59 -0500 Ted Gould (39602f5)
+
+	* It's C++, let's use that when we can.
+
+2015-06-22 14:12:16 -0500 Ted Gould (391e52b)
+
+	* Steal getting a pid from an Upstart job from pay service and push
+          it into the scope detection
+
+2015-06-22 14:02:04 -0500 Ted Gould (371aea5)
+
+	* Make sure to add it to debian as well
+
+2015-06-22 14:01:06 -0500 Ted Gould (678b46d)
+
+	* Adding a PID check
+
+2015-06-22 11:42:22 -0500 Ted Gould (7e9587b)
+
+	* Change the tests to the new prototypes
+
+2015-06-22 11:26:39 -0500 Ted Gould (f27d932)
+
+	* Check the scope URL to ensure the App ID is correct
+
+2015-06-22 10:59:46 -0500 Ted Gould (bcf7e7f)
+
+	* Link in the scope checker
+
+2015-06-22 10:43:36 -0500 Ted Gould (10cfa86)
+
+	* A connection to the Scopes Runtime
+
+2015-06-22 09:16:18 -0500 Ted Gould (fe7c4ef)
+
+	* Adding Unity Scopes to the build
+
+2015-06-19 17:06:43 -0500 Ted Gould (d8b51db)
+
+	* Ensure the URL dialog has what it needs
+
+2015-06-19 17:02:33 -0500 Ted Gould (bc02013)
+
+	* Make CMake happy having two exec-tools
+
+2015-06-19 16:38:40 -0500 Ted Gould (dd7c25c)
+
+	* Adding an exec tool for bad-urls
+
+2015-06-19 16:11:50 -0500 Ted Gould (819996c)
+
+	* GPL it
+
+2015-06-19 16:11:00 -0500 Ted Gould (24c4ed6)
+
+	* Install the QML file
+
+2015-06-19 16:07:24 -0500 Ted Gould (c6792a0)
+
+	* Clean up the string and use an argument
+
+2015-06-19 14:44:30 -0500 Ted Gould (daa2e93)
+
+	* Clean up text
+
+2015-06-19 14:41:00 -0500 Ted Gould (2b7abf7)
+
+	* Couple clean ups
+
+2015-06-19 14:39:35 -0500 Ted Gould (a55f468)
+
+	* First pass at a dialog
+
+2015-06-19 14:16:19 -0500 Ted Gould (acb705a)
+
+	* Attaching bug
+
+2015-06-19 14:15:27 -0500 Ted Gould (1b17dec)
+
+	* Add a check for handling bad versions
+
+2015-06-19 14:09:45 -0500 Ted Gould (4e2c8d4)
+
+	* Check to ensure that a given app id is the current version
+
+2015-06-19 13:51:52 -0500 Ted Gould (52f2414)
+
+	* Make sure to clean up untrusted helpers
+
+2015-06-19 13:45:48 -0500 Ted Gould (c93c6cb)
+
+	* Remove the wildcard that is confusing the script
+
+2015-06-12 16:00:40 +0000 CI Train Bot (ba3aff9)
+
+	* Releasing 0.1+15.10.20150612-0ubuntu1
+
+2015-06-12 16:00:37 +0000 Ted Gould (76e1896)
+
+	* Support URL Overlays of content in a trusted session without a
+          desktop file Approved by: PS Jenkins bot, Charles Kerr
+
+2015-06-12 16:00:29 +0000 Ted Gould (ace3789)
+
+	* Provide a small tool to dump the URL DB in a readable form Approved
+          by: PS Jenkins bot, Charles Kerr
+
+2015-06-12 16:00:22 +0000 Ted Gould (197ea51)
+
+	* Add upstart build dep for tests on Wily Approved by: PS Jenkins
+          bot, Charles Kerr
+
+2015-06-12 10:40:29 -0500 Ted Gould (1d4a110)
+
+	* Clean up a couple of warnings
+
+2015-06-11 16:50:05 -0500 Ted Gould (7f92e04)
+
+	* Making internal functions private
+
+2015-06-11 16:47:17 -0500 Ted Gould (e1c3c76)
+
+	* Remove (void) as a function prototype
+
+2015-06-11 16:38:13 -0500 Ted Gould (2d99dcf)
+
+	* Switch linking option to not include the pthread library, but
+          instead ask for it directly
+
+2015-06-08 15:41:31 -0500 Ted Gould (660782a)
+
+	* Allow dir to be NULL
+
+2015-06-08 12:13:44 -0500 Ted Gould (0aec676)
+
+	* Fixing the dispatcher test to match the fixes in the exec tool test
+
+2015-06-08 11:39:15 -0500 Ted Gould (93d6e57)
+
+	* Make the exec-tool test work with the directory feature (and test
+          it)
+
+2015-06-08 11:19:40 -0500 Ted Gould (da1e450)
+
+	* Fix CMake file to use PROGRAMS
+
+2015-06-08 10:27:58 -0500 Ted Gould (100b55c)
+
+	* Grab Upstart dep
+
+2015-06-08 10:26:21 -0500 Ted Gould (6900fd8)
+
+	* Grab Upstart dep
+
+2015-06-08 09:44:36 -0500 Ted Gould (ee44607)
+
+	* Add upstart build dep for tests on Wily
+
+2015-06-05 17:04:43 -0500 Ted Gould (e2bd11d)
+
+	* Add the libclick dev package
+
+2015-06-05 14:48:37 -0500 Ted Gould (06d8e33)
+
+	* Adding in directory support for the new UAL
+
+2015-05-20 11:27:27 -0500 Ted Gould (785f1f9)
+
+	* Ensure Mir has pthread
+
+2015-05-20 11:22:44 -0500 Ted Gould (2c2414e)
+
+	* Grab the exec tool too
+
+2015-05-19 16:41:02 -0500 Ted Gould (45c64ee)
+
+	* Make the mir mock an ld preload for non-mir testing
+
+2015-05-19 15:28:10 -0500 Ted Gould (8fbf15c)
+
+	* Make it so that VIM can handle the comment syntax
+
+2015-05-19 15:24:47 -0500 Ted Gould (bc64c00)
+
+	* Adding copyright headers
+
+2015-05-19 15:13:39 -0500 Ted Gould (6b3364b)
+
+	* Put a bad call in
+
+2015-05-19 15:06:07 -0500 Ted Gould (6156b19)
+
+	* Mir signal stops
+
+2015-05-19 14:50:40 -0500 Ted Gould (9edd88a)
+
+	* Signal a stop from UAL to make sure the Mir session gets cleaned up
+
+2015-05-18 22:55:25 -0500 Ted Gould (10b7b51)
+
+	* Add in some Mir mock checking and such
+
+2015-05-18 22:37:02 -0500 Ted Gould (4fa37d9)
+
+	* Testing adding a bunch of overlays
+
+2015-05-18 22:25:51 -0500 Ted Gould (2dd036a)
+
+	* Switch from a DBus Mock to a UAL mock
+
+2015-05-18 19:55:57 -0500 Ted Gould (dcbe7ca)
+
+	* Making sure to remove not going back on the loop twice
+
+2015-05-18 19:55:15 -0500 Ted Gould (8193586)
+
+	* Overlay test
+
+2015-05-18 16:14:05 -0500 Ted Gould (7e61e1c)
+
+	* Adding in a base for the overlay tracker testing
+
+2015-05-18 16:04:21 -0500 Ted Gould (635809f)
+
+	* Stealing the Mir mock
+
+2015-05-18 15:48:16 -0500 Ted Gould (5013287)
+
+	* Matching the desktop file
+
+2015-05-18 15:47:36 -0500 Ted Gould (4f6d0bf)
+
+	* Make sure the data hits the bus
+
+2015-05-18 12:51:28 -0500 Ted Gould (c66d1a9)
+
+	* Get a basic test going
+
+2015-05-18 12:46:53 -0500 Ted Gould (3057b53)
+
+	* Allow directory overrides in the exec tool
+
+2015-05-18 12:46:38 -0500 Ted Gould (2112e99)
+
+	* Move blocking the recoverable problems down the stack
+
+2015-05-18 11:43:35 -0500 Ted Gould (ea74753)
+
+	* Add checking overlay tests
+
+2015-05-18 11:40:53 -0500 Ted Gould (a856abf)
+
+	* Add in a first overlay test
+
+2015-05-18 11:01:35 -0500 Ted Gould (f0b638f)
+
+	* Add in support for test defined overlays
+
+2015-05-16 21:22:43 -0500 Ted Gould (f5626be)
+
+	* Unref a variant and realize a TODO
+
+2015-05-16 10:02:32 -0500 Ted Gould (da11a9b)
+
+	* Connect in the dispatcher and the tracker
+
+2015-05-16 09:43:34 -0500 Ted Gould (46fc6a8)
+
+	* Pass along the URL as well
+
+2015-05-16 09:33:57 -0500 Ted Gould (d9ff2cb)
+
+	* Add in some more error handling
+
+2015-05-16 09:30:47 -0500 Ted Gould (d280f77)
+
+	* Connect into the UAL events and handle them
+
+2015-05-16 09:18:01 -0500 Ted Gould (8ff5a20)
+
+	* Clean up a bit
+
+2015-05-15 22:20:07 -0500 Ted Gould (9b6ad41)
+
+	* Track AppID as well
+
+2015-05-15 22:10:42 -0500 Ted Gould (7eca659)
+
+	* Setup a helper and start mir session tracking
+
+2015-05-15 16:24:15 -0500 Ted Gould (8f38326)
+
+	* Get a mock in there
+
+2015-05-15 16:14:29 -0500 Ted Gould (21f9630)
+
+	* Putting in the middle an interface to make it a little easier to
+          test.
+
+2015-05-15 15:18:14 -0500 Ted Gould (1e086b8)
+
+	* Start to flesh out the overlay tracker
+
+2015-05-15 12:53:18 -0500 Ted Gould (2e4b16d)
+
+	* Steal glib-thread from pay-service
+
+2015-05-15 12:50:57 -0500 Ted Gould (f934801)
+
+	* Add the overlay tracker into things
+
+2015-05-15 11:34:44 -0500 Ted Gould (da5ac79)
+
+	* Make sure non-archive bugs to go the package in LP
+
+2015-05-15 11:30:37 -0500 Ted Gould (4b0db16)
+
+	* Make the apport hook use the same tool
+
+2015-05-15 11:28:27 -0500 Ted Gould (7627c85)
+
+	* Install the dumper
+
+2015-05-15 11:27:27 -0500 Ted Gould (2047a12)
+
+	* Install it
+
+2015-05-15 11:26:07 -0500 Ted Gould (a84adbb)
+
+	* A small shell script to dump the contents of the URL DB in a useful
+          way.
+
+2015-05-15 10:48:53 -0500 Ted Gould (481cf2f)
+
+	* Don't use the C file, use the lib that we have
+
+2015-05-15 10:47:18 -0500 Ted Gould (87d06f3)
+
+	* Determine whether something is an overlay
+
+2015-05-15 08:50:17 -0500 Ted Gould (cd851db)
+
+	* Insert the overlay code
+
+2015-05-15 08:45:14 -0500 Ted Gould (8e5c62f)
+
+	* Connect in some recoverable problems
+
+2015-05-15 08:42:27 -0500 Ted Gould (bd38149)
+
+	* Add in directory search support
+
+2015-05-14 11:30:03 -0500 Ted Gould (e20abc7)
+
+	* Building the tool
+
+2015-05-14 10:46:08 -0500 Ted Gould (6165f3f)
+
+	* Steal exec tool from Pay Service
+
+2015-05-14 10:44:35 -0500 Ted Gould (bc06936)
+
+	* Make it so tht we have two click hooks, one for URLs and one for
+          overlays
+
+2015-05-13 16:20:29 -0500 Ted Gould (a055c8c)
+
+	* Require UAL 0.5
+
+2015-01-23 15:19:34 +0000 CI Train Bot (146964c)
+
+	* Releasing 0.1+15.04.20150123-0ubuntu1
+
+2015-01-23 15:19:23 +0000 Ted Gould (afda3c0)
+
+	* Special handling for intent URLs Fixes: #1407709 Approved by:
+          Charles Kerr, PS Jenkins bot
+
+2015-01-23 08:34:30 -0600 Ted Gould (c5b71a7)
+
+	* Small fixes from rtm review
+
+2015-01-23 08:33:48 -0600 Ted Gould (6c5aab9)
+
+	* Don't get the domain from the regular expression if we're not going
+          to use it.
+
+2015-01-23 08:33:20 -0600 Ted Gould (12bf240)
+
+	* Makeing intent_domain static
+
+2015-01-09 10:11:45 -0600 Ted Gould (110a540)
+
+	* Update to trunk
+
+2015-01-09 09:57:49 -0600 Ted Gould (f8ccecc)
+
+	* Add an update directory test for intent input
+
+2015-01-09 09:42:13 -0600 Ted Gould (e09d4fc)
+
+	* Block intents that don't have a domain specified
+
+2015-01-09 09:36:43 -0600 Ted Gould (62ad443)
+
+	* Intent special case testing
+
+2015-01-08 10:46:22 -0600 Ted Gould (00b935d)
+
+	* Special handle intent domains
+
+2014-12-11 19:43:41 +0000 CI Train Bot (35f3ae7)
+
+	* Releasing 0.1+15.04.20141211-0ubuntu1
+
+2014-12-11 19:43:27 +0000 Ted Gould (6ac6f46)
+
+	* Fix domain handling in generic regular expression Fixes: #1401612
+          Approved by: Charles Kerr
+
+2014-12-11 13:00:04 -0600 Ted Gould (abc9832)
+
+	* Regex wack-a-mole
+
+2014-12-11 12:34:23 -0600 Ted Gould (6ffcee8)
+
+	* Attching bug
+
+2014-12-11 12:33:34 -0600 Ted Gould (7f2002b)
+
+	* Adding a webapp subdomain test
+
+2014-10-31 15:51:37 +0000 CI bot (d5f412a)
+
+	* Releasing 0.1+15.04.20141031-0ubuntu1
+
+2014-10-31 15:51:23 +0000 Jussi Pakkanen (f4c3010)
+
+	* Ensure that tables always exist. Approved by: Ted Gould, PS Jenkins
+          bot
+
+2014-10-31 15:51:11 +0000 Ted Gould (c53e908)
+
+	* Making generic regular expression more robust Fixes: 1351222,
+          1384460 Approved by: Charles Kerr, PS Jenkins bot
+
+2014-10-31 15:51:00 +0000 Jussi Pakkanen (0c71ba9)
+
+	* Do a rollback when update operations fail so there are no dangling
+          transactions. Approved by: Ted Gould, PS Jenkins bot
+
+2014-10-31 15:50:49 +0000 Jussi Pakkanen (8a542d3)
+
+	* General cleanups Approved by: Ted Gould, PS Jenkins bot
+
+2014-10-30 17:29:47 +0200 Jussi Pakkanen (6544562)
+
+	* Dammit.
+
+2014-10-30 17:15:49 +0200 Jussi Pakkanen (ad500b7)
+
+	* Created test for double creation.
+
+2014-10-29 17:34:10 +0200 Jussi Pakkanen (9c5b712)
+
+	* Ensure tables always exist.
+
+2014-10-29 09:48:02 -0500 Ted Gould (8f08afa)
+
+	* Adding a test for tel: with slashes
+
+2014-10-29 10:48:27 +0200 Jussi Pakkanen (d378bb8)
+
+	* Do a rollback if transaction fails.
+
+2014-10-28 14:46:32 +0200 Jussi Pakkanen (1930f8b)
+
+	* Made -Wpedantic off in non-debug builds to work around bug caused
+          by gdbus-codegen.
+
+2014-10-28 13:35:34 +0200 Jussi Pakkanen (2651a61)
+
+	* Generate python test file in build directory.
+
+2014-10-28 12:23:14 +0200 Jussi Pakkanen (e1f2302)
+
+	* A few dead assignment fixes from Clang static analyzer.
+
+2014-10-28 11:50:57 +0200 Jussi Pakkanen (456479a)
+
+	* Created ignore file and populated it with common things.
+
+2014-10-28 11:49:29 +0200 Jussi Pakkanen (04e5683)
+
+	* Moved test configuration from command line options to a
+          configuration header.
+
+2014-10-24 21:55:11 +0300 Jussi Pakkanen (f86fbf6)
+
+	* Fix header guards.
+
+2014-10-24 19:17:02 +0300 Jussi Pakkanen (84ea7fd)
+
+	* Use nullptr in C++.
+
+2014-10-24 18:28:21 +0300 Jussi Pakkanen (633e69e)
+
+	* Enable more warnings and fix issues raised.
+
+2014-10-23 18:07:00 -0400 Ted Gould (e3feae5)
+
+	* Attaching bug
+
+2014-10-23 18:06:38 -0400 Ted Gould (6408782)
+
+	* Adding the test from the bug
+
+2014-10-23 18:01:39 -0400 Ted Gould (9640fda)
+
+	* Fixing the test
+
+2014-10-23 17:57:11 -0400 Ted Gould (b9ad98c)
+
+	* A helpful debug name
+
+2014-10-23 17:49:01 -0400 Ted Gould (064c9cb)
+
+	* Check that we thing we got an app id
+
+2014-10-23 14:56:39 -0400 Ted Gould (58d0840)
+
+	* Adding a tel test
+
+2014-10-23 14:43:30 -0400 Ted Gould (ad8a9be)
+
+	* Make the generic regular expression more general
+
+2014-09-25 13:29:40 +0000 CI bot (1ea218d)
+
+	* Releasing 0.1+14.10.20140925-0ubuntu1
+
+2014-09-25 13:29:23 +0000 Ted Gould (6a56441)
+
+	* Update tests to work with new UAL requirements Fixes: 1370735
+          Approved by: Charles Kerr, PS Jenkins bot
+
+2014-09-25 13:29:13 +0000 Ted Gould (2731cb6)
+
+	* Drop file based URLs for Music and Video Fixes: 1340952 Approved
+          by: Charles Kerr
+
+2014-09-22 10:20:40 -0500 Ted Gould (af06fe5)
+
+	* Changing variable name to be more descriptive
+
+2014-09-22 09:46:06 -0500 Ted Gould (2ef2697)
+
+	* Updating to trunk
+
+2014-09-17 17:17:10 -0500 Ted Gould (45eb6ab)
+
+	* Attaching bug
+
+2014-09-17 17:12:21 -0500 Ted Gould (a51b127)
+
+	* Adding a desktop file for lookup with the new UAL
+
+2014-09-05 03:40:44 +0000 CI bot (71ca09f)
+
+	* Releasing 0.1+14.10.20140905.1-0ubuntu1
+
+2014-09-05 03:40:33 +0000 Ted Gould (58585e2)
+
+	* Throw a bad_url on the appid 'unconfined' Approved by: Charles
+          Kerr, PS Jenkins bot
+
+2014-09-02 15:39:03 -0500 Ted Gould (786c9c4)
+
+	* Make it so the bad-url errors are easier to find in Daisy
+
+2014-09-02 15:34:01 -0500 Ted Gould (738e82b)
+
+	* Throw a bad_url on the appid 'unconfined'
+
+2014-08-27 02:10:21 +0000 CI bot (012e752)
+
+	* Releasing 0.1+14.10.20140827-0ubuntu1
+
+2014-08-27 02:10:08 +0000 Ted Gould (44f9ef7)
+
+	* Support for unity8-dash URLs even though it's not an application
+          Fixes: 1361349 Approved by: Michał Sawicz, Charles Kerr,
+          PS Jenkins bot
+
+2014-08-27 02:09:55 +0000 Ted Gould (47b90ea)
+
+	* Split update jobs into independent jobs Approved by: Charles Kerr,
+          PS Jenkins bot
+
+2014-08-26 08:57:19 -0500 Ted Gould (847dcd8)
+
+	* Adding in a test for the focus signal
+
+2014-08-26 08:45:11 -0500 Ted Gould (a455fce)
+
+	* Check the parameters to ensure the URL is there
+
+2014-08-26 08:41:26 -0500 Ted Gould (a4531ee)
+
+	* Adding in a dash mock
+
+2014-08-25 22:02:27 -0500 Ted Gould (cb63496)
+
+	* Setting up the dispatching of the URL
+
+2014-08-25 21:57:12 -0500 Ted Gould (fc3c45c)
+
+	* Add a URL db to the test
+
+2014-08-25 21:44:06 -0500 Ted Gould (cf9cbf0)
+
+	* Create a test with a dash mock
+
+2014-08-25 15:15:10 -0500 Ted Gould (337705a)
+
+	* Dropping the scope regular expression in favor of having the dash
+          provide a url configuration file.
+
+2014-08-25 12:43:16 -0500 Ted Gould (acff153)
+
+	* Add testing for the scope URI format
+
+2014-08-25 12:34:05 -0500 Ted Gould (0785f54)
+
+	* Actually send the Open request to the dash
+
+2014-08-25 09:58:02 -0500 Ted Gould (01eee5a)
+
+	* Match the scope regular expression
+
+2014-08-25 09:53:32 -0500 Ted Gould (1e67dee)
+
+	* Add a function to send to the dash
+
+2014-08-25 09:38:37 -0500 Ted Gould (cae34e4)
+
+	* Adding in a scope regular expression
+
+2014-08-20 13:58:49 -0500 Ted Gould (7ec366c)
+
+	* Split the update into two different jobs
+
+2014-08-20 13:41:41 -0500 Ted Gould (fb66629)
+
+	* We don't use the utilities anymore, just the lib which will get
+          automatically grabbed
+
+2014-08-20 13:40:09 -0500 Ted Gould (4f83418)
+
+	* Drop workaround for 1302117
+
+2014-08-19 21:01:11 +0000 CI bot (c8772f5)
+
+	* Releasing 0.1+14.10.20140819.1-0ubuntu1
+
+2014-08-19 21:00:58 +0000 Ted Gould (75dad66)
+
+	* Test replacing a timestamp Approved by: PS Jenkins bot, Rodney
+          Dawes
+
+2014-08-19 21:00:45 +0000 Ted Gould (db52f29)
+
+	* Ensure send works even without a mainloop Fixes: 1356077 Approved
+          by: Charles Kerr, PS Jenkins bot
+
+2014-08-19 15:59:53 -0500 Ted Gould (8af7113)
+
+	* Use dbus-test-runner for the tests
+
+2014-08-19 10:46:30 -0500 Ted Gould (42dd2ef)
+
+	* Don't start it, just wait
+
+2014-08-18 09:12:15 -0500 Ted Gould (c8bb6c6)
+
+	* Check to see if URL Dispatcher is running and then send status
+
+2014-08-17 21:12:11 -0500 Ted Gould (dfc6d3d)
+
+	* Just looking for the DB file
+
+2014-08-17 20:55:24 -0500 Ted Gould (46b32a3)
+
+	* Test to ensure we can update with the same value
+
+2014-08-17 20:54:36 -0500 Ted Gould (6750187)
+
+	* Ensuring that URL disptcher gets started before us
+
+2014-08-15 13:20:36 -0500 Ted Gould (6627e1d)
+
+	* Attaching bug
+
+2014-08-15 13:19:23 -0500 Ted Gould (60d18ad)
+
+	* Avoid getting the proxy so that we can just call one level of
+          indirection
+
+2014-08-15 10:53:24 -0500 Ted Gould (9e96052)
+
+	* Adding a test for using the lib without a mainloop
+
+2014-08-14 09:23:02 -0500 Ted Gould (124fa00)
+
+	* Adding a test to ensure we can replace a timestamp
+
+2014-07-24 17:10:14 +0000 CI bot (1f9d4c0)
+
+	* Releasing 0.1+14.10.20140724-0ubuntu1
+
+2014-07-24 17:10:10 +0000 CI bot (006a8e0)
+
+	* Replaced 0replaceme with real versions.
+
+2014-07-24 17:10:02 +0000 Brendan Donegan (764cbb0)
+
+	* Add url-dispatcher-testability binary package. Approved by: Ted
+          Gould, Leo Arias
+
+2014-07-24 17:09:50 +0000 Ted Gould (64fcddc)
+
+	* Add a TestURL function to determine which AppID will be used for a
+          given URL Approved by: Charles Kerr, PS Jenkins bot
+
+2014-07-24 17:09:38 +0000 Ted Gould (a51189b)
+
+	* Make the database handle multiple writers more robustly Approved
+          by: Charles Kerr, PS Jenkins bot
+
+2014-07-23 20:50:26 -0500 Ted Gould (866973f)
+
+	* Test the error case as well
+
+2014-07-23 20:48:52 -0500 Ted Gould (4929890)
+
+	* Handle multiple URLs
+
+2014-07-23 20:47:12 -0500 Ted Gould (ca183c5)
+
+	* Test the test url function on the service
+
+2014-07-23 11:18:38 -0500 Ted Gould (14df0dd)
+
+	* Go throught the array with a counter
+
+2014-07-22 16:54:25 -0600 Leo Arias (70df07c)
+
+	* Added python3:Depends as suggested by Colin.
+
+2014-07-22 14:09:42 +0100 Brendan Donegan (4a508ad)
+
+	* Use .in file to set bin_dir
+
+2014-07-21 17:44:35 +0100 Brendan Donegan (3f5ac46)
+
+	* Add copyright header
+
+2014-07-21 16:35:16 +0100 Brendan Donegan (d8757bf)
+
+	* Update signature
+
+2014-07-20 12:45:00 +0100 Brendan Donegan (8911bdd)
+
+	* CTest works now
+
+2014-07-17 14:19:55 -0500 Ted Gould (f838715)
+
+	* Add documentation for return value
+
+2014-07-17 14:30:10 +0100 Brendan Donegan (b9c5d6d)
+
+	* CMake changes to get url_dispatcher_testability tested with CMake
+
+2014-07-17 14:23:09 +0100 Brendan Donegan (5cab705)
+
+	* Refactor fake dispatcher to split into two modules
+
+2014-07-16 17:03:57 -0500 Ted Gould (f679743)
+
+	* Add symbol
+
+2014-07-16 15:47:49 -0500 Ted Gould (8bc2d95)
+
+	* Test the restriction feature
+
+2014-07-16 15:01:13 -0500 Ted Gould (1dc13e5)
+
+	* Pull the restriction logic into its own function so that we can
+          test it
+
+2014-07-16 14:36:10 -0500 Ted Gould (361f16a)
+
+	* Ensure we're testing the restricted function as well
+
+2014-07-16 14:17:20 -0500 Ted Gould (da7ea35)
+
+	* Fix libtest for new API
+
+2014-07-16 14:16:10 -0500 Ted Gould (4c90b0a)
+
+	* Ensure we always send a string
+
+2014-07-16 12:06:18 +0100 Brendan Donegan (c6823b4)
+
+	* Add url-dispatcher-tools to control file
+
+2014-07-15 19:01:47 -0500 Ted Gould (8efa01f)
+
+	* Send a formal error if we get restricted
+
+2014-07-15 18:58:27 -0500 Ted Gould (b095c8e)
+
+	* Refactor to handle the case of the restricted package.
+
+2014-07-15 18:45:04 -0500 Ted Gould (706600e)
+
+	* Send along the package information for restricted dispatch
+
+2014-07-15 18:40:25 -0500 Ted Gould (7b8413f)
+
+	* Add package to the dispatch URL method
+
+2014-07-15 18:36:59 -0500 Ted Gould (c3a1d0c)
+
+	* Some documentation, which is a good thing
+
+2014-07-15 14:54:02 -0500 Ted Gould (56ff6b8)
+
+	* Add a dispatch restricted prototype
+
+2014-07-15 11:32:24 -0500 Ted Gould (f5ba3b1)
+
+	* Adjust test to new API
+
+2014-07-15 17:16:34 +0100 Brendan Donegan (a164bc5)
+
+	* Add python3-fixtures to build-deps
+
+2014-07-15 11:00:21 -0500 Ted Gould (6332eaf)
+
+	* Look through the URLs we're given
+
+2014-07-15 10:31:39 -0500 Ted Gould (9e57a87)
+
+	* Changing API to be sets of strings
+
+2014-07-15 16:13:17 +0100 Brendan Donegan (38b1eca)
+
+	* Add testtools as a build-dep
+
+2014-07-15 10:10:17 -0500 Ted Gould (2af4f0a)
+
+	* Attaching bug
+
+2014-07-15 10:09:58 -0500 Ted Gould (5207156)
+
+	* Dropping the file URL tests
+
+2014-07-15 10:08:35 -0500 Ted Gould (ad174ff)
+
+	* Drop the file based URLs
+
+2014-07-15 14:48:54 +0100 Brendan Donegan (7ec335d)
+
+	* Add url-dispatcher-testability which provides a fake URL dispatcher
+          for testing, and a test for the same.
+
+2014-07-14 21:36:25 -0500 Ted Gould (4cec94e)
+
+	* Adding in new symbol
+
+2014-07-14 17:18:14 -0500 Ted Gould (ca42f33)
+
+	* Adding a test for the TestURL library function
+
+2014-07-14 17:14:03 -0500 Ted Gould (e59caa4)
+
+	* Access function for the URL test
+
+2014-07-12 11:46:43 -0500 Ted Gould (b3c6b9b)
+
+	* Align to new API
+
+2014-07-12 11:37:42 -0500 Ted Gould (05c4525)
+
+	* Refactoring test to handle new API
+
+2014-07-12 11:03:52 -0500 Ted Gould (1c2cd5a)
+
+	* Rename function to make more sense
+
+2014-07-12 11:01:40 -0500 Ted Gould (fc94b0d)
+
+	* Rename the function to have it make more sense
+
+2014-07-11 10:13:54 -0500 Ted Gould (081cdba)
+
+	* Adding a test URL handler
+
+2014-07-11 10:10:00 -0500 Ted Gould (e753052)
+
+	* Making dispatch_url a little more generic
+
+2014-07-11 09:47:22 -0500 Ted Gould (3bc1e72)
+
+	* Add a TestURL method
+
+2014-07-09 11:26:47 -0500 Ted Gould (af22c7a)
+
+	* Create the tables all at once in a transaction. h/t Pete and Michal
+
+2014-07-07 15:00:24 -0500 Ted Gould (33ddd5b)
+
+	* Make it so that we try to ensure the updates all happen as
+          sequentially as possible so we don't get in fights over
+          the database
+
+2014-07-07 14:58:38 -0500 Ted Gould (7d9ed32)
+
+	* Put the database into WAL mode for shared memory overlaping of
+          writes
+
+2014-06-19 02:43:30 +0000 CI bot (eb20a50)
+
+	* Releasing 0.1+14.10.20140619-0ubuntu1
+
+2014-06-19 02:43:22 +0000 Ted Gould (4fae33d)
+
+	* Improving error messages and collecting more data
+
+2014-06-06 11:11:22 -0500 Ted Gould (a072cf8)
+
+	* Oops, Python
+
+2014-06-06 11:06:24 -0500 Ted Gould (cef5f85)
+
+	* Adding in apport help from the cache
+
+2014-06-06 10:29:55 -0500 Ted Gould (ed966ef)
+
+	* Better error messages through strings
+
+2014-06-06 09:36:09 -0500 Ted Gould (a858e71)
+
+	* Fix dir_search leak on error
+
+2014-06-04 19:07:03 +0000 CI bot (f7a5662)
+
+	* Releasing 0.1+14.10.20140604-0ubuntu1
+
+2014-06-04 19:06:55 +0000 Ted Gould (afb2dd9)
+
+	* Recoverable errors on DB errors on update
+
+2014-06-04 19:06:34 +0000 Ted Gould (35aa2fc)
+
+	* Merge and review policies
+
+2014-06-04 11:03:26 -0500 Ted Gould (bef5db6)
+
+	* Const our strings
+
+2014-06-04 11:02:24 -0500 Ted Gould (f1acfd3)
+
+	* Update to trunk
+
+2014-06-01 20:53:35 +0000 CI bot (03c4ac0)
+
+	* Releasing 0.1+14.10.20140601-0ubuntu1
+
+2014-06-01 20:53:28 +0000 Ted Gould (cdc5cb1)
+
+	* Changing to Ubuntu App Launch
+
+2014-05-27 19:06:58 +0200 Ted Gould (8701326)
+
+	* Add error for unable to set the notification time as well
+
+2014-05-27 18:51:53 +0200 Ted Gould (d00434e)
+
+	* Add recoverable errors for database issues
+
+2014-05-27 18:34:04 +0200 Ted Gould (4dc4731)
+
+	* UAL rename
+
+2014-05-26 15:09:00 +0200 Ted Gould (792bc3d)
+
+	* Missed a build variable
+
+2014-05-26 14:56:47 +0200 Ted Gould (b3e8b41)
+
+	* Changing to Ubuntu App Launch
+
+2014-04-03 21:17:00 +0000 CI bot (67948fe)
+
+	* Releasing 0.1+14.04.20140403-0ubuntu1
+
+2014-04-03 21:16:50 +0000 Ted Gould (ac631e9)
+
+	* Fix cache directory permissions if they got messed up Fixes:
+          1290997
+
+2014-04-03 14:15:52 -0500 Ted Gould (338868d)
+
+	* Marking this as 'fixed' for url-dispatcher
+
+2014-04-03 14:15:00 -0500 Ted Gould (e17db7e)
+
+	* Putting in umasks for now
+
+2014-04-03 11:01:50 -0500 Ted Gould (c232d50)
+
+	* Fixing the cache directory permissions if they're broke
+
+2014-03-31 17:18:43 +0000 CI bot (631d257)
+
+	* Releasing 0.1+14.04.20140331.1-0ubuntu1
+
+2014-03-31 17:18:36 +0000 Ted Gould (07f4f5c)
+
+	* Migrate test suite to use libclick based libual
+
+2014-03-31 17:18:25 +0000 Ted Gould (46db324)
+
+	* Switch to using libupstart-app-launch for discovering AppIDs
+
+2014-03-31 17:18:16 +0000 Ted Gould (950a097)
+
+	* Make it so that URLs can be installed with configuration files.
+
+2014-03-31 12:17:07 -0500 Ted Gould (6b84cf7)
+
+	* Add a timeout before tearing down the bus
+
+2014-03-24 15:43:29 -0500 Ted Gould (48121e7)
+
+	* Make these tests work with the new scheme better
+
+2014-03-24 15:37:42 -0500 Ted Gould (3391e95)
+
+	* Switch from a click command like to a click db based test
+
+2014-03-14 14:51:28 -0500 Ted Gould (b69be32)
+
+	* Update to trunk
+
+2014-03-14 14:50:37 -0500 Ted Gould (c1313b9)
+
+	* Update to trunk
+
+2014-03-14 14:48:28 -0500 Ted Gould (cbf3bc8)
+
+	* Free the fail string
+
+2014-03-14 14:47:07 -0500 Ted Gould (55e527a)
+
+	* Make a failure to close a recoverable problem
+
+2014-03-14 14:09:41 -0500 Ted Gould (c2be298)
+
+	* Only check if a directory
+
+2014-03-14 14:08:06 -0500 Ted Gould (42b8573)
+
+	* Change function name to match logic of return
+
+2014-03-14 14:05:49 -0500 Ted Gould (442ec67)
+
+	* Error if protocol is NULL
+
+2014-03-14 14:02:56 -0500 Ted Gould (d4482cb)
+
+	* Make sure to free GError
+
+2014-03-14 13:57:41 -0500 Ted Gould (6b4a597)
+
+	* Adding author notes in copyright headers
+
+2014-02-17 17:58:45 +0000 CI bot (7005302)
+
+	* Releasing 0.1+14.04.20140217.1-0ubuntu1
+
+2014-02-17 17:58:37 +0000 Ted Gould (7809355)
+
+	* Update Upstart mock for the new UAL
+
+2014-02-17 17:58:30 +0000 Ted Gould (9cdd060)
+
+	* Flushing trunk with a release
+
+2014-02-13 21:49:48 -0600 Ted Gould (b392973)
+
+	* Don't remove the source here, do that when it gets removed below
+
+2014-02-13 11:01:05 -0600 Ted Gould (e46c872)
+
+	* Update Upstart mock for the new UAL
+
+2014-02-04 22:59:01 -0600 Ted Gould (8044d31)
+
+	* Adding some merge review policies
+
+2014-02-04 22:57:41 -0600 Ted Gould (797afa5)
+
+	* Some manual tests
+
+2014-01-30 10:44:23 -0600 Ted Gould (ad5c197)
+
+	* Flushing trunk with a release
+
+2014-01-29 08:55:59 -0600 Ted Gould (d74ebc9)
+
+	* Drop runtime dep on click.  UAL has one, but we don't.
+
+2014-01-29 08:53:57 -0600 Ted Gould (ba0c4e2)
+
+	* Drop the click exec variable we aren't using anyway
+
+2014-01-28 21:11:54 -0600 Ted Gould (22cdd0b)
+
+	* Getting the tests working with the new world order
+
+2014-01-28 20:45:16 -0600 Ted Gould (f156466)
+
+	* Switch to the UAL function for resolving the triplet
+
+2014-01-14 08:34:53 -0600 Ted Gould (fc12991)
+
+	* Forgot to add deps on sqlite3
+
+2014-01-13 23:22:31 -0600 Ted Gould (1fb3695)
+
+	* Change home directory notation
+
+2014-01-13 16:57:56 -0600 Ted Gould (bfa9b6f)
+
+	* Fixing the regular expression to make the / optional
+
+2014-01-13 16:06:01 -0600 Ted Gould (24a513b)
+
+	* Trying to work around a seeming Upstart bug
+
+2014-01-13 15:33:30 -0600 Ted Gould (314aa18)
+
+	* Selecting files so we get less errors
+
+2014-01-13 15:32:29 -0600 Ted Gould (c4059c3)
+
+	* Print on removing files
+
+2014-01-13 14:52:04 -0600 Ted Gould (d4c2e30)
+
+	* Add a schema version to make our lives easier later
+
+2014-01-13 14:46:10 -0600 Ted Gould (a71a0e1)
+
+	* Reshuffle so we only handle the case if we can make things better
+
+2014-01-13 14:25:33 -0600 Ted Gould (586396b)
+
+	* Check out the directory and handle files
+
+2014-01-13 13:59:17 -0600 Ted Gould (9b98d4c)
+
+	* Fix warning
+
+2014-01-13 13:47:11 -0600 Ted Gould (b8cf531)
+
+	* Switching to events to be a little cleaner
+
+2014-01-13 13:38:42 -0600 Ted Gould (9a3fc24)
+
+	* Simplifying
+
+2014-01-13 13:18:51 -0600 Ted Gould (4d34349)
+
+	* Include click in the packaging
+
+2014-01-13 13:17:02 -0600 Ted Gould (d6b346d)
+
+	* Add in a click hook for URLs
+
+2014-01-13 13:09:42 -0600 Ted Gould (8443787)
+
+	* Switch to using the update job instead of calling the utility for
+          single instance per-directory
+
+2014-01-13 13:07:18 -0600 Ted Gould (cabb272)
+
+	* Switching to one job with a match instead of two jobs
+
+2014-01-13 13:03:17 -0600 Ted Gould (9ee03a5)
+
+	* Update to all the new naming
+
+2014-01-13 12:52:48 -0600 Ted Gould (3d2d946)
+
+	* Add test to ensure we don't duplicate entries on files that haven't
+          been updated
+
+2014-01-13 12:46:47 -0600 Ted Gould (9fb0e22)
+
+	* Make sure to put the cache into a test directory
+
+2014-01-13 12:44:57 -0600 Ted Gould (1d93009)
+
+	* We don't support that anymore
+
+2014-01-13 12:44:11 -0600 Ted Gould (fc45b2a)
+
+	* Special casing the file URLs, we can't kill them :-(
+
+2014-01-13 12:33:35 -0600 Ted Gould (c860062)
+
+	* Dropping the alarm test, it's not testing anything new anymore
+
+2014-01-13 12:32:37 -0600 Ted Gould (5f30e58)
+
+	* Setup the URL database to have the test entries in it
+
+2014-01-13 12:32:23 -0600 Ted Gould (bf69b03)
+
+	* Use the right match variable
+
+2014-01-13 12:22:09 -0600 Ted Gould (cd25bcb)
+
+	* Add a generic protocol regular expression to grab the db entries
+
+2014-01-13 11:29:54 -0600 Ted Gould (b50f00b)
+
+	* Test to ensure removing a directory removes the entries for it
+
+2014-01-13 11:27:34 -0600 Ted Gould (dc48783)
+
+	* Test to ensure removing a file removes the entiry in the DB
+
+2014-01-13 11:06:10 -0600 Ted Gould (9f6b5ee)
+
+	* Switching so if a directory doesn't exist we'll remove all entries
+          that were for it in the database
+
+2014-01-13 11:02:32 -0600 Ted Gould (bea7e67)
+
+	* Need a return
+
+2014-01-13 11:00:12 -0600 Ted Gould (69e661a)
+
+	* Handling removal of deleted files
+
+2014-01-13 10:39:41 -0600 Ted Gould (e4b1783)
+
+	* Splitting up the communcation to the database into multiple execs
+
+2014-01-13 10:19:37 -0600 Ted Gould (bf86d6a)
+
+	* Test to ensure removal (fails)
+
+2014-01-13 10:09:54 -0600 Ted Gould (13117fa)
+
+	* Add a test for a directory that isn't there
+
+2014-01-13 10:07:56 -0600 Ted Gould (53581ca)
+
+	* Function to remove file data
+
+2014-01-13 09:33:14 -0600 Ted Gould (697b18d)
+
+	* Fix a typo in the tests
+
+2014-01-13 09:33:07 -0600 Ted Gould (fda6931)
+
+	* Build the search term in C
+
+2014-01-13 09:22:36 -0600 Ted Gould (8e6a954)
+
+	* Adding a test to find the files
+
+2014-01-13 09:12:54 -0600 Ted Gould (0e1445c)
+
+	* Return the files that are in a directory
+
+2014-01-10 23:55:25 -0600 Ted Gould (93d9b75)
+
+	* Add a compeating URL file
+
+2014-01-10 23:55:08 -0600 Ted Gould (6bf7095)
+
+	* Make sure the lenght goes the right direction
+
+2014-01-10 23:49:04 -0600 Ted Gould (cb8e309)
+
+	* Adding a test for suffix basics
+
+2014-01-10 23:48:49 -0600 Ted Gould (9c5596a)
+
+	* Making sure to copy the memory right away
+
+2014-01-10 23:16:21 -0600 Ted Gould (2890606)
+
+	* Making the SQL do our work and suffix and sort for us
+
+2014-01-10 21:02:27 -0600 Ted Gould (15296af)
+
+	* Fixing up the test, making things work
+
+2014-01-10 20:36:37 -0600 Ted Gould (c00c6cc)
+
+	* Fixing the SQL
+
+2014-01-10 20:25:31 -0600 Ted Gould (c89ca52)
+
+	* Get the URL back in the test
+
+2014-01-10 20:18:13 -0600 Ted Gould (17ab155)
+
+	* Flsehing out how to get the url from the db
+
+2014-01-10 14:46:50 -0600 Ted Gould (e65c9d8)
+
+	* Adding a function to find a URL
+
+2014-01-10 14:28:55 -0600 Ted Gould (bc4591f)
+
+	* Switch from having the hardcoded list of paterns to using the
+          database to look them up
+
+2014-01-10 14:09:56 -0600 Ted Gould (b62171c)
+
+	* Filter out extra noise from coverage
+
+2014-01-10 12:05:36 -0600 Ted Gould (bdfc7b0)
+
+	* Same URL from more files
+
+2014-01-10 11:59:39 -0600 Ted Gould (e5e031e)
+
+	* Make sure the urls are unique
+
+2014-01-10 11:59:29 -0600 Ted Gould (2c34541)
+
+	* Check for duplicate entries in the same file
+
+2014-01-10 11:48:08 -0600 Ted Gould (7f4aad3)
+
+	* Adding one with lots of different entries
+
+2014-01-10 11:44:19 -0600 Ted Gould (b445f7c)
+
+	* XML file to test
+
+2014-01-10 11:39:04 -0600 Ted Gould (93db36c)
+
+	* Make sure we know what suffixs we have
+
+2014-01-10 11:33:09 -0600 Ted Gould (b0783aa)
+
+	* Boot strapping the varried test
+
+2014-01-10 11:26:55 -0600 Ted Gould (b38d652)
+
+	* Moving the directory so we can have more
+
+2014-01-10 11:24:30 -0600 Ted Gould (c2fd315)
+
+	* Move the DB creation just to make sure we can have two connections
+          to the DB
+
+2014-01-10 11:17:28 -0600 Ted Gould (9fa8138)
+
+	* Checking for a URL in the database as well
+
+2014-01-10 11:13:50 -0600 Ted Gould (961ecbc)
+
+	* Check for a file in the DB
+
+2014-01-10 11:05:00 -0600 Ted Gould (c46c8e0)
+
+	* Make the full filename instead of just the file name in the
+          directory
+
+2014-01-10 11:02:05 -0600 Ted Gould (1f89a07)
+
+	* Adding a test for a simple single entry that is good
+
+2014-01-10 10:58:51 -0600 Ted Gould (33e3ed4)
+
+	* Flesh out the not existing test
+
+2014-01-10 10:40:27 -0600 Ted Gould (7293513)
+
+	* Adding a basic test for the directory update tool
+
+2014-01-09 22:01:10 -0600 Ted Gould (bf1a3f9)
+
+	* Fixing out of tree builds
+
+2014-01-09 21:14:22 -0600 Ted Gould (726934f)
+
+	* Insert a URL as well
+
+2014-01-09 21:02:51 -0600 Ted Gould (3ef10df)
+
+	* Make sure to return false if we can't find any data
+
+2014-01-09 21:01:21 -0600 Ted Gould (a5fe642)
+
+	* Check out the timestamps
+
+2014-01-09 20:51:52 -0600 Ted Gould (dc9de8d)
+
+	* Check the types of the columns to ensure everything is there
+
+2014-01-09 20:34:47 -0600 Ted Gould (a99c9de)
+
+	* Setting up the URL db test framework
+
+2014-01-09 20:02:16 -0600 Ted Gould (bbb7249)
+
+	* Putting the DB code into its own lib to make testing easier
+
+2014-01-09 17:13:09 -0600 Ted Gould (d85aa8e)
+
+	* Fleshing out setting the timestamp
+
+2014-01-09 17:09:48 -0600 Ted Gould (be9903a)
+
+	* Code to hopefully get the timestamp
+
+2014-01-09 16:44:48 -0600 Ted Gould (ec8d2bb)
+
+	* Fleshing out inserting a URL
+
+2014-01-09 16:44:39 -0600 Ted Gould (6ef4bda)
+
+	* Doing the per entry url handling
+
+2014-01-09 16:06:52 -0600 Ted Gould (5b2d585)
+
+	* Start parsing up the url discription file
+
+2014-01-09 15:49:35 -0600 Ted Gould (7065592)
+
+	* Do the checks on file modification times
+
+2014-01-09 15:33:22 -0600 Ted Gould (33095f6)
+
+	* Fleshing out main
+
+2014-01-09 15:08:34 -0600 Ted Gould (e190b26)
+
+	* Adding an update directory tool
+
+2014-01-09 15:00:34 -0600 Ted Gould (a8dafa9)
+
+	* Copyright header
+
+2014-01-09 15:00:08 -0600 Ted Gould (26b822d)
+
+	* Prototyping out some new functions
+
+2014-01-09 14:04:56 -0600 Ted Gould (e2640be)
+
+	* Make a url-db header
+
+2014-01-09 14:02:11 -0600 Ted Gould (f4b254d)
+
+	* Change to url-db so we can throw other things there
+
+2014-01-08 16:30:15 -0600 Ted Gould (6c7e0b5)
+
+	* Adding in some code to create a database all nice like
+
+2014-01-08 16:24:59 -0600 Ted Gould (9cd7f18)
+
+	* Get the constant builder templates
+
+2014-01-08 10:41:06 -0600 Ted Gould (11ccee7)
+
+	* Adding a create db sql list and along with a script to test it
+
+2014-01-03 16:30:18 -0600 Ted Gould (598fd0c)
+
+	* Adding in an architecture diagram
+
+2014-01-02 17:17:20 -0600 Ted Gould (5f81bee)
+
+	* Adding in the refresh job
+
+2014-01-02 16:52:55 -0600 Ted Gould (17f1ff3)
+
+	* Adding watch upstart jobs
+
+2013-12-10 09:32:32 +0100 Łukasz 'sil2100' Zemczak (50be5da)
+
+	* Merge back two distro release changelog entries
+
+2013-12-10 09:30:53 +0100 Łukasz 'sil2100' Zemczak (28b35ec)
+
+	* We don't care for the arch change bits
+
+2013-12-10 09:25:27 +0100 Łukasz 'sil2100' Zemczak (46b3937)
+
+	* Merge back two distro release changelog entries
+
+2013-12-06 13:55:54 +0000 Ted Gould (ed00403)
+
+	* Upgrading to libupstart-app-launch v2.
+
+2013-12-06 12:30:14 +0000 Ted Gould (31bc3bc)
+
+	* Upgrading to libupstart-app-launch v2
+
+2013-11-20 19:49:21 +0000 Ted Gould (91f2840)
+
+	* Add tests for the library and service as a binary.
+
+2013-11-20 11:31:30 -0600 Ted Gould (ee6fa83)
+
+	* Grab dbusmock for the test suite
+
+2013-11-08 14:15:31 -0600 Ted Gould (3670735)
+
+	* Make sure there aren't two app ids and that we don't leak a string
+
+2013-11-08 14:14:18 -0600 Ted Gould (2471d9a)
+
+	* Make sure to let the environment go
+
+2013-11-08 14:12:26 -0600 Ted Gould (779fef3)
+
+	* Unref the test variant
+
+2013-11-07 10:57:17 -0600 Ted Gould (721b6c6)
+
+	* Make sure to TERM so we get the coverage results
+
+2013-11-07 10:44:34 -0600 Ted Gould (4e0ceca)
+
+	* Add a sigterm handler
+
+2013-11-07 10:35:46 -0600 Ted Gould (87d4bdb)
+
+	* Make sure we have our env var for the session bus usage
+
+2013-11-07 10:10:47 -0600 Ted Gould (c2733bb)
+
+	* A test that actually runs the service
+
+2013-11-07 09:31:43 -0600 Ted Gould (ce9944c)
+
+	* Better name
+
+2013-11-07 09:31:23 -0600 Ted Gould (3d4f93d)
+
+	* A bit more sane
+
+2013-11-07 09:28:31 -0600 Ted Gould (e9d4a20)
+
+	* Fleshing out the test, but it's not right yet
+
+2013-11-07 09:12:37 -0600 Ted Gould (e5bbc82)
+
+	* Setup our fixture
+
+2013-11-07 08:56:35 -0600 Ted Gould (a4a4320)
+
+	* Adding a dummy test for the lib
+
+2013-11-07 08:48:56 -0600 Ted Gould (8ebd68a)
+
+	* Depend on dbustest
+
+2013-10-14 19:48:40 +0000 Automatic PS uploader (889cd5e)
+
+	* Releasing 0.1+13.10.20131014.2-0ubuntu1 (revision 38 from
+          lp:url-dispatcher).
+
+2013-10-14 18:07:27 +0000 Automatic PS uploader (169a943)
+
+	* Releasing 0.1+13.10.20131014.2-0ubuntu1, based on r38
+
+2013-10-14 14:01:52 +0000 Michal Hruby (4c87993)
+
+	* Revert the definition change for mediaplayer, it'll remain a
+          non-click app for now.
+
+2013-10-14 13:09:18 +0100 Michal Hruby (59c6513)
+
+	* Fix test
+
+2013-10-14 12:29:31 +0100 Michal Hruby (d4e9401)
+
+	* Revert the mediaplayer change to click
+
+2013-10-09 21:57:20 +0000 Ted Gould (5a569c9)
+
+	* Switching many core apps to Click App ID's.
+
+2013-10-08 16:27:34 -0500 Ted Gould (53cf9a5)
+
+	* Adding more tests with each format we want to ensure works
+
+2013-10-08 16:22:01 -0500 Ted Gould (fa11673)
+
+	* Adding in test data and hitting it
+
+2013-10-08 16:21:00 -0500 Ted Gould (c0282d7)
+
+	* Adding some test click manifests
+
+2013-10-08 16:15:13 -0500 Ted Gould (b3ee4e8)
+
+	* Switching packages that are going to be clicks over to the
+          searchable app id
+
+2013-10-08 16:04:46 -0500 Ted Gould (5822513)
+
+	* Make a #define for current version
+
+2013-10-08 19:46:28 +0000 Ted Gould (6d7e8e8)
+
+	* Allow custom URIs to have variable based package specifications.
+
+2013-10-08 14:18:11 -0500 Ted Gould (f49bf86)
+
+	* Merge trunk to resolve conflicts
+
+2013-10-08 16:56:54 +0000 Ted Gould (e56cb8e)
+
+	* Use 'click info' to get the manifest. Fixes:
+          https://bugs.launchpad.net/bugs/1232118.
+
+2013-10-08 16:43:27 +0000 Ted Gould (2274055)
+
+	* Adds the appid:// URL format.
+
+2013-10-05 21:13:03 -0500 Ted Gould (25affdc)
+
+	* Add built directories to the includes
+
+2013-10-04 16:54:29 -0500 Ted Gould (930021e)
+
+	* Update to trunk
+
+2013-10-04 16:45:49 -0500 Ted Gould (e60d90d)
+
+	* Adding a test for a custom URI with wildcards
+
+2013-10-04 16:45:38 -0500 Ted Gould (fb2348e)
+
+	* Making sure we get the test custom URI
+
+2013-10-04 16:45:20 -0500 Ted Gould (e7b50d8)
+
+	* Adding a custom URI that we can use for testing
+
+2013-10-04 16:29:41 -0500 Ted Gould (f853a3f)
+
+	* If we have no app id make sure to check our search version
+
+2013-10-04 16:27:47 -0500 Ted Gould (837efcf)
+
+	* Make it so that we can have a triplet in the app structure
+
+2013-10-04 16:19:59 -0500 Ted Gould (3c158c8)
+
+	* Make our click tester do info instead of pkgdir
+
+2013-10-04 16:18:36 -0500 Ted Gould (bf6f5d5)
+
+	* Use 'click info' to get the manifest file
+
+2013-10-04 16:15:57 -0500 Ted Gould (314c86d)
+
+	* Make sure to note the runtime deps on click
+
+2013-10-04 16:15:25 -0500 Ted Gould (e8ffc48)
+
+	* Attaching bug
+
+2013-10-03 13:48:27 +0000 Automatic PS uploader (043afe3)
+
+	* Releasing 0.1+13.10.20131003-0ubuntu1 (revision 32 from
+          lp:url-dispatcher).
+
+2013-10-03 02:08:19 +0000 Automatic PS uploader (351dcd4)
+
+	* Releasing 0.1+13.10.20131003-0ubuntu1, based on r32
+
+2013-10-02 14:55:22 +0000 Ted Gould (a121046)
+
+	* Adding the alarm URL pattern. Fixes:
+          https://bugs.launchpad.net/bugs/1233176.
+
+2013-10-01 12:39:32 -0500 Ted Gould (80794b1)
+
+	* Again
+
+2013-10-01 12:37:40 -0500 Ted Gould (aee4bc2)
+
+	* Using the right app
+
+2013-10-01 12:28:17 -0500 Ted Gould (d5dd5fd)
+
+	* Adding the alarm URL pattern
+
+2013-09-27 20:58:55 +0000 Ted Gould (64a1f01)
+
+	* Adding a calendar URL. Fixes:
+          https://bugs.launchpad.net/bugs/1231136.
+
+2013-09-27 20:45:38 +0000 Ted Gould (7c386c5)
+
+	* Make dispatcher more testable and add some application:/// tests.
+
+2013-09-27 20:32:03 +0000 Ted Gould (046ae19)
+
+	* Enfoce the ///. Fixes: https://bugs.launchpad.net/bugs/1231444.
+
+2013-09-27 14:21:15 -0500 Ted Gould (14a85d3)
+
+	* Adding calendar testing
+
+2013-09-27 14:16:22 -0500 Ted Gould (d17789b)
+
+	* Grab test harness
+
+2013-09-26 15:54:19 -0500 Ted Gould (148c993)
+
+	* Cherry pick r43 from the app-id-url branch to make cancelling
+          better
+
+2013-09-26 15:46:56 -0500 Ted Gould (0b63d9e)
+
+	* Make click error
+
+2013-09-26 15:30:45 -0500 Ted Gould (3506213)
+
+	* Test on a list of apps
+
+2013-09-26 15:26:54 -0500 Ted Gould (873ba55)
+
+	* Fixing cut-and-paste error
+
+2013-09-26 15:12:47 -0500 Ted Gould (9650cbd)
+
+	* Make it so that we can handle cancelling better
+
+2013-09-26 15:07:43 -0500 Ted Gould (cdd6858)
+
+	* Add some wildcards into the mix
+
+2013-09-26 15:02:02 -0500 Ted Gould (23388e3)
+
+	* Getting soem flesh on them tests!
+
+2013-09-26 14:58:00 -0500 Ted Gould (5911e7a)
+
+	* Setup an environment we can beleive in
+
+2013-09-26 14:56:16 -0500 Ted Gould (27583e6)
+
+	* Adding in an app id test
+
+2013-09-26 14:37:14 -0500 Ted Gould (ac9f83f)
+
+	* Merge testability branch
+
+2013-09-26 14:19:36 -0500 Ted Gould (8d984cc)
+
+	* Make sure to get gtest too
+
+2013-09-26 11:15:58 -0500 Ted Gould (b7be879)
+
+	* Make sure to cancel everything when we shutdown
+
+2013-09-26 11:15:02 -0500 Ted Gould (baf3599)
+
+	* Need to allow the period character
+
+2013-09-26 11:09:10 -0500 Ted Gould (ab20dca)
+
+	* Adding some more format tests
+
+2013-09-26 11:04:59 -0500 Ted Gould (cf7aa1f)
+
+	* Add negative tests
+
+2013-09-26 11:04:51 -0500 Ted Gould (1ec2eb3)
+
+	* Make sure to set the variable to NULL as well
+
+2013-09-26 11:01:14 -0500 Ted Gould (0c57bea)
+
+	* Forgot to add this to the VCS, learned the hard way
+
+2013-09-26 10:44:30 -0500 Ted Gould (de1075f)
+
+	* Oh, a real test!
+
+2013-09-26 10:42:30 -0500 Ted Gould (cdc2035)
+
+	* Copyright
+
+2013-09-26 10:41:28 -0500 Ted Gould (9df44a5)
+
+	* Making it so we can pull values out of the mock
+
+2013-09-26 10:35:56 -0500 Ted Gould (13f908c)
+
+	* Set up the dispatcher and a bus to run it under
+
+2013-09-26 10:27:55 -0500 Ted Gould (36e2ffa)
+
+	* Ensure our prototypes match
+
+2013-09-26 10:27:21 -0500 Ted Gould (77bbd16)
+
+	* Include the dispatcher header
+
+2013-09-26 10:25:08 -0500 Ted Gould (f927d79)
+
+	* Make it so that we can dispatch a URL externally without using the
+          dbus interface
+
+2013-09-26 10:15:24 -0500 Ted Gould (542c173)
+
+	* Mock'in away
+
+2013-09-26 10:07:09 -0500 Ted Gould (3e58425)
+
+	* Adding a stub test in
+
+2013-09-26 10:04:06 -0500 Ted Gould (36e80aa)
+
+	* Adding testing as a theory
+
+2013-09-26 10:01:51 -0500 Ted Gould (d7cfbb8)
+
+	* Adding a base file for testing
+
+2013-09-26 10:01:12 -0500 Ted Gould (be11798)
+
+	* Pull the core dispatcher stuff into a lib
+
+2013-09-26 09:58:03 -0500 Ted Gould (e998e2e)
+
+	* Pulling the main out of dispatcher
+
+2013-09-26 08:22:27 -0500 Ted Gould (644628e)
+
+	* Enfoce the ///
+
+2013-09-26 08:15:20 -0500 Ted Gould (e83dcfd)
+
+	* Make sure we have 3 /
+
+2013-09-26 07:49:51 -0500 Ted Gould (70764db)
+
+	* Adding a calendar URL
+
+2013-09-24 08:04:54 +0000 Automatic PS uploader (362d30b)
+
+	* Releasing 0.1+13.10.20130924.1-0ubuntu1 (revision 27 from
+          lp:url-dispatcher).
+
+2013-09-24 06:09:10 +0000 Automatic PS uploader (27ee082)
+
+	* Releasing 0.1+13.10.20130924.1-0ubuntu1, based on r27
+
+2013-09-20 01:15:27 +0000 Ted Gould (a32748f)
+
+	* Report a recoverable problem on Bad URLs.
+
+2013-09-19 20:29:14 +0000 Automatic PS uploader (54bd1c5)
+
+	* Releasing 0.1+13.10.20130919.3-0ubuntu1 (revision 25 from
+          lp:url-dispatcher).
+
+2013-09-19 12:01:34 -0500 Ted Gould (124fcc9)
+
+	* Fix building the argument string to handle memory better
+
+2013-09-19 14:05:05 +0000 Automatic PS uploader (c0149ae)
+
+	* Releasing 0.1+13.10.20130919.3-0ubuntu1, based on r25
+
+2013-09-18 19:45:29 +0000 Ted Gould (b38c8e2)
+
+	* Add URLs for PIM apps.
+
+2013-09-18 14:16:10 -0500 Ted Gould (5e78526)
+
+	* Add Messages
+
+2013-09-18 14:14:28 -0500 Ted Gould (b8e2629)
+
+	* Add address book
+
+2013-09-18 16:57:06 +0000 Ted Gould (219bd33)
+
+	* Fix the URI environment variable by properly using
+          libupstart-app-launch.
+
+2013-09-18 16:08:04 +0000 Ted Gould (30ea30d)
+
+	* Fix the name of the dialer-app.
+
+2013-09-18 10:13:57 -0500 Ted Gould (7d32e6b)
+
+	* Kill the TODO and use the lib
+
+2013-09-18 09:58:19 -0500 Ted Gould (284dca7)
+
+	* Add in Upstart App Launch
+
+2013-09-17 23:16:51 -0500 Ted Gould (1fd804a)
+
+	* Adding in a good manifest
+
+2013-09-17 23:13:37 -0500 Ted Gould (f60e8ec)
+
+	* A little utility to 'emulate' click for us
+
+2013-09-17 23:08:53 -0500 Ted Gould (cf96544)
+
+	* Small clean ups
+
+2013-09-17 23:06:54 -0500 Ted Gould (0c73a03)
+
+	* Adding C++
+
+2013-09-17 23:04:15 -0500 Ted Gould (63fd897)
+
+	* Adding in Google Test
+
+2013-09-18 03:34:53 +0000 Automatic PS uploader (cad9da6)
+
+	* Releasing 0.1+13.10.20130917.1-0ubuntu1 (revision 21 from
+          lp:url-dispatcher).
+
+2013-09-17 21:25:48 -0500 Ted Gould (a2909c6)
+
+	* Adding in a testing directory
+
+2013-09-17 21:21:22 -0500 Ted Gould (9815cc3)
+
+	* Make it so that we can replace the click executable with an
+          environment variable
+
+2013-09-17 21:12:04 -0500 Ted Gould (05495e4)
+
+	* Missing that dot character, some people use it in URLs
+
+2013-09-17 17:17:50 -0500 Ted Gould (15c95af)
+
+	* Discover the app name from the manifest
+
+2013-09-17 22:11:05 +0000 Automatic PS uploader (5471f5b)
+
+	* Releasing 0.1+13.10.20130917.1-0ubuntu1, based on r21
+
+2013-09-17 17:10:29 -0500 Ted Gould (5a3d385)
+
+	* Handle current version
+
+2013-09-17 17:07:54 -0500 Ted Gould (04877b6)
+
+	* Split out functions for using the manifest to determine the
+          results.
+
+2013-09-17 16:45:58 -0500 Ted Gould (b2e7d8d)
+
+	* Figure out the manifest file and parse it
+
+2013-09-17 16:45:32 -0500 Ted Gould (ed0c08e)
+
+	* Add in JSON GLib to the build
+
+2013-09-17 14:58:26 -0500 Ted Gould (66b6338)
+
+	* Checking for precise versions and handling the easy case
+
+2013-09-17 11:25:58 -0500 Ted Gould (caf6102)
+
+	* Send back a bad URL if we can't find the app
+
+2013-09-17 11:08:04 -0500 Ted Gould (5ef9ca5)
+
+	* Add in an App ID regular expresion handler
+
+2013-09-16 20:18:53 -0500 Ted Gould (47f40cd)
+
+	* Make it a little clearer what is happening here
+
+2013-09-16 22:27:53 +0000 Ted Gould (fcdff14)
+
+	* URLs for music and video application launching.
+
+2013-09-16 21:52:49 +0000 Ted Gould (280663d)
+
+	* Switch the library relationship to the service to a Suggests.
+
+2013-09-16 16:26:53 -0500 Ted Gould (a763f19)
+
+	* Reporting the issue to the bug tracker, take that!
+
+2013-09-16 16:17:40 -0500 Ted Gould (d787f13)
+
+	* Set ourselves up to get the PID of the caller
+
+2013-09-16 21:09:51 +0000 Ted Gould (468952d)
+
+	* Call webbrowser for http/https URLs.
+
+2013-09-16 15:56:28 -0500 Ted Gould (aa99d8f)
+
+	* Stealing the recoverable problem code from URL dispatcher, trying
+          to make it a little more modular
+
+2013-09-16 14:58:59 -0500 Ted Gould (7ed86c3)
+
+	* Adding TODOs for the file based URLs
+
+2013-09-16 13:13:01 -0500 Ted Gould (e904a7e)
+
+	* Change name of telephony app
+
+2013-09-16 12:58:14 -0500 Ted Gould (714ad03)
+
+	* Ted's rule of regular expressions: When in doubt, add extra
+          backslashes
+
+2013-09-16 12:57:20 -0500 Ted Gould (5c130cf)
+
+	* Pull the username part into a define
+
+2013-09-16 12:54:11 -0500 Ted Gould (70a29d3)
+
+	* Add video
+
+2013-09-16 12:52:29 -0500 Ted Gould (908fbe1)
+
+	* Adding some music URLs
+
+2013-09-16 12:48:30 -0500 Ted Gould (a0216eb)
+
+	* Comments
+
+2013-09-16 12:06:53 -0500 Ted Gould (5db0d09)
+
+	* Start the webbrowser on HTTP/HTTPS requests
+
+2013-09-15 20:47:48 -0500 Ted Gould (c2ac586)
+
+	* Switch the library relationship to the service to a Suggests
+
+2013-08-23 02:49:04 +0000 Automatic PS uploader (1f21336)
+
+	* Releasing 0.1+13.10.20130823-0ubuntu1 (revision 17 from
+          lp:url-dispatcher).
+
+2013-08-23 02:06:01 +0000 Automatic PS uploader (66a71f3)
+
+	* Releasing 0.1+13.10.20130823-0ubuntu1, based on r17
+
+2013-08-22 22:26:38 +0000 Ted Gould (5468246)
+
+	* Adding a URL format for system settings.
+
+2013-08-21 07:53:59 -0500 Ted Gould (d3796da)
+
+	* Adding a URL for system settings
+
+2013-07-26 09:24:47 +0000 Automatic PS uploader (4290731)
+
+	* Releasing 0.1+13.10.20130726-0ubuntu1 (revision 15 from
+          lp:url-dispatcher).
+
+2013-07-26 00:02:46 +0000 Automatic PS uploader (273d5f5)
+
+	* Releasing 0.1+13.10.20130726-0ubuntu1, based on r15
+
+2013-07-25 13:43:45 +0000 Łukasz 'sil2100' Zemczak (c23d162)
+
+	* Add symbols file, modify the package's short descriptions.
+
+2013-07-25 14:55:16 +0200 Łukasz 'sil2100' Zemczak (23e2102)
+
+	* Missed pre-depends
+
+2013-07-25 14:14:33 +0200 Łukasz 'sil2100' Zemczak (ec7b08b)
+
+	* Add symbols file, modify the package's short descriptions
+
+2013-07-25 10:49:00 +0000 Automatic PS uploader (0663b01)
+
+	* Releasing 0.1+13.10.20130725.1-0ubuntu1 (revision 13 from
+          lp:url-dispatcher).
+
+2013-07-25 07:52:47 +0000 Automatic PS uploader (c8a8de5)
+
+	* Releasing 0.1+13.10.20130725.1-0ubuntu1, based on r13
+
+2013-07-18 15:49:32 +0000 Łukasz 'sil2100' Zemczak (71085d8)
+
+	* Additional packaging changes, since some things got missed last
+          time.
+
+2013-07-16 17:01:55 +0200 Łukasz 'sil2100' Zemczak (0b1d6df)
+
+	* Argh, we need gdbus-codegen, so libglib2.0-dev is needed (along
+          with python)
+
+2013-07-16 16:39:11 +0200 Łukasz 'sil2100' Zemczak (cf925d9)
+
+	* Change the order, missing Pre-Depends: in one package
+
+2013-07-16 16:22:48 +0200 Łukasz 'sil2100' Zemczak (537edba)
+
+	* Additional packaging changes, since some things got missed last
+          time
+
+2013-07-10 21:08:11 +0000 Łukasz 'sil2100' Zemczak (132fc57)
+
+	* Modifications related to compliance with our packaging standards.
+
+2013-07-10 13:37:31 +0200 Łukasz 'sil2100' Zemczak (4d2a927)
+
+	* Modifications related to compliance with our packaging standards
+
+2013-07-10 04:13:13 +0000 Ted Gould (5ec0ca1)
+
+	* Flesh out the service.
+
+2013-07-10 03:57:55 +0000 Ted Gould (fc0bb58)
+
+	* Flesh out the library.
+
+2013-07-09 21:18:43 -0500 Ted Gould (23b5b43)
+
+	* Protecting from symbol theives
+
+2013-07-09 21:16:27 -0500 Ted Gould (547be1f)
+
+	* Print g_spawn error
+
+2013-07-09 21:14:58 -0500 Ted Gould (be37a29)
+
+	* Make sure to use the return value of bad_url()
+
+2013-07-09 21:12:47 -0500 Ted Gould (12c6919)
+
+	* Make sure to not keep a ref to the bus
+
+2013-07-09 21:07:36 -0500 Ted Gould (83bfe31)
+
+	* Use G_DEFINE_QUARK to save some code
+
+2013-07-09 21:04:05 -0500 Ted Gould (7dda97a)
+
+	* Make sure to free the generated command line
+
+2013-07-09 21:02:38 -0500 Ted Gould (dd585da)
+
+	* Freeing the match info even on non-match
+
+2013-07-09 21:00:13 -0500 Ted Gould (9622350)
+
+	* Make sure to unref the proxy
+
+2013-07-08 15:32:08 -0500 Ted Gould (73f61d3)
+
+	* Setting up a table of URLS to look to try and match others
+
+2013-07-08 15:09:48 -0500 Ted Gould (1147306)
+
+	* Fixing match and added debug info
+
+2013-07-08 15:05:57 -0500 Ted Gould (1272871)
+
+	* Flesh out a pre-libupstart version of the signal emitting
+
+2013-07-08 15:02:28 -0500 Ted Gould (21a303a)
+
+	* Handle the application URLs
+
+2013-07-08 14:33:24 -0500 Ted Gould (262028f)
+
+	* Generate an error on a bad URL
+
+2013-07-08 11:40:08 -0500 Ted Gould (69ddf31)
+
+	* Get the name, and handle loss
+
+2013-07-08 10:45:00 -0500 Ted Gould (c82ebae)
+
+	* Connecting in the interface skeleton
+
+2013-07-08 10:31:21 -0500 Ted Gould (8659b09)
+
+	* Getting the dbus connection
+
+2013-07-08 10:24:07 -0500 Ted Gould (44bf769)
+
+	* Got a main loop, let's get started
+
+2013-07-03 23:53:32 -0500 Ted Gould (9488b72)
+
+	* Handling the URL being dispatched out there
+
+2013-07-03 23:47:36 -0500 Ted Gould (10b2c8a)
+
+	* Fleshing out the proxy getting
+
+2013-07-03 23:40:30 -0500 Ted Gould (831ee8b)
+
+	* Getting the proxy callback setup
+
+2013-07-03 23:40:18 -0500 Ted Gould (283789f)
+
+	* Adding the generated headers into the build
+
+2013-06-28 11:35:12 -0500 Ted Gould (a51df66)
+
+	* Packaging
+
+2013-06-28 10:55:27 -0500 Ted Gould (924cd83)
+
+	* A build system
+
+2013-06-28 10:15:43 -0500 Ted Gould (b5dbd55)
+
+	* A package config file
+
+2013-06-28 09:57:14 -0500 Ted Gould (a36aefe)
+
+	* Adding in the base service
+
+2013-06-28 09:56:57 -0500 Ted Gould (c72a417)
+
+	* Making the naming consistent
+
+2013-06-28 09:37:21 -0500 Ted Gould (a906f91)
+
+	* A little command line utility using the lib
+
+2013-06-28 09:23:29 -0500 Ted Gould (c395694)
+
+	* Adding in some basis for a library
+
+2013-06-27 17:15:58 -0500 Ted Gould (728415d)
+
+	* Basic data stuff we need
+
+2013-06-27 16:05:40 -0500 Ted Gould (fbc0e4b)
+
+	* Discussing the point of the project
+

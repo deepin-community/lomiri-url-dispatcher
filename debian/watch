@@ -1,0 +1,2 @@
+version=4
+https://gitlab.com/ubports/core/lomiri-url-dispatcher/tags .*/lomiri-url-dispatcher-(\d\S+)\.tar\.gz

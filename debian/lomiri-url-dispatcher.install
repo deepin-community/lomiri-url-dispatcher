@@ -1,0 +1,7 @@
+usr/lib/*/lomiri-url-dispatcher
+usr/lib/*/lomiri-app-launch/url-overlay/exec-tool
+usr/lib/*/lomiri-app-launch/bad-url/exec-tool
+usr/share/dbus-1
+usr/share/lomiri-url-dispatcher/bad-url.qml
+usr/bin/lomiri-url-dispatcher-dump
+debian/apparmor/lomiri-url-dispatcher-bad-url-helper etc/apparmor.d

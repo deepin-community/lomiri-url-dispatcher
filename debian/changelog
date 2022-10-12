@@ -1,0 +1,440 @@
+lomiri-url-dispatcher (0.1.0-5) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 0001_Fix-compile-error-with-new-glib-versions.patch. Fix FTBFS
+      against latest GLib-2.0. Thanks to Luca Weiss. (Closes: #997237).
+  * debian/patches:
+    + Add 0002_Fix-generic-URL-regex.patch. Fix generic URL regexp. Thanks to
+      Hatato.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 08 Nov 2021 18:09:17 +0100
+
+lomiri-url-dispatcher (0.1.0-4) unstable; urgency=medium
+
+  * debian/rules:
+    + Add dh_auto_test override. Run tests in --no-parallel mode.
+  * debian/control:
+    + Update versioned B-D on cmake-extras (>= 1.5-7~).
+    + Drop alternative B-D on google-mock. B-D on googletest is sufficient these
+      days.
+    + Add B-D on libgtest-dev.
+    + Bump Standards-Version: to 4.5.1. No changes needed.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 13 Dec 2020 16:03:30 +0100
+
+lomiri-url-dispatcher (0.1.0-3) unstable; urgency=medium
+
+  * debian/patches:
+    + Add 1001_fix-runtime-error-fftbfs.patch. Add missing include of
+      <stdexcept>. Fixes FTBFS against GCC-10.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 27 Sep 2020 16:10:28 +0200
+
+lomiri-url-dispatcher (0.1.0-2) unstable; urgency=medium
+
+  * debian/control:
+    + Fix Vcs-*: URLs.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 07 Sep 2020 21:44:44 +0200
+
+lomiri-url-dispatcher (0.1.0-1) unstable; urgency=medium
+
+  * Initial upload to Debian. (Closes: #961698).
+  * Adapt for packaging Lomiri's fork of URL Dispatcher.
+  * Adapt for uploading to Debian (instead of Ubuntu).
+
+  * debian/control:
+    + Bump DH compat level to version 13.
+    + Drop full-stop from SYNOPSIS fields.
+    + Drop ${python3:Depends} from D (lomiri-url-dispatcher-testability).
+    + Update not-yet-available Ds and mark with FIXME.
+  * debian/rules:
+    + Add get-orig-source target.
+    + Set hardening build flags.
+  * debian/copyright:
+    + Update URLs. Use secure proto.
+    + Add auto-generated copyright.in file for tracking copyright changes.
+    + Update copyright attributions.
+  * debian/watch:
+    + Add file.
+  * lintian:
+    + Override desktop-command-not-in-package for QML application.
+    + Override binary-without-manpage (for now).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Thu, 28 May 2020 08:40:36 +0200
+
+url-dispatcher (0.2+ubports) bionic; urgency=medium
+
+  * Imported to UBports
+
+ -- UBports auto importer <infra@ubports.com>  Fri, 13 Oct 2017 19:54:36 +0200
+
+url-dispatcher (0.1+17.04.20170328-0ubuntu1) zesty; urgency=medium
+
+  * Fix deprecation warning in mir mock.
+  * The unity8-dash interface is actually com.canonical.UnityDash.
+  * Use libwhoopsie for reporting recoverable problems.
+  * Convert service main process and url-dispatcher tool code to C++.
+
+ -- Rodney Dawes <rodney.dawes@canonical.com>  Tue, 28 Mar 2017 18:29:07 +0000
+
+url-dispatcher (0.1+17.04.20170318-0ubuntu1) zesty; urgency=medium
+
+  * Update bad-url exec tool to UAL C++ interface
+  * Remove Upstart from the test suite and replace it with systemd
+
+ -- Ted Gould <ted@gould.cx>  Sat, 18 Mar 2017 19:59:26 +0000
+
+url-dispatcher (0.1+17.04.20170314-0ubuntu1) zesty; urgency=medium
+
+  [ Charles Kerr ]
+  * Honor XDG_CACHE_HOME in url-dispatcher-dump and url-dispatcher.conf
+
+  [ Rodney Dawes ]
+  * Remove click usage and support.
+  * Use gmock module from cmake-extras.
+  * Use the coverage support from cmake-extras.
+  * Use cmake-extras intltool support.
+  * Use gdbus integration from cmake-extras.
+  * Remove unused gsettings cmake module.
+
+ -- Rodney Dawes <rodney.dawes@canonical.com>  Tue, 14 Mar 2017 14:35:03 +0000
+
+url-dispatcher (0.1+17.04.20170308.1-0ubuntu1) zesty; urgency=medium
+
+  * Don't use upstart to get unity8 pid.
+
+ -- Rodney Dawes <rodney.dawes@canonical.com>  Wed, 08 Mar 2017 20:43:30 +0000
+
+url-dispatcher (0.1+17.04.20170227.2-0ubuntu1) zesty; urgency=medium
+
+  [ Ken VanDine ]
+  * Handle UAL API bump
+
+  [ Rodney Dawes ]
+  * Remove tests that depend on libertine, as url-dispatcher has no
+    support for handlers in libertine anyway.
+
+ -- Rodney Dawes <rodney.dawes@canonical.com>  Mon, 27 Feb 2017 19:07:50 +0000
+
+url-dispatcher (0.1+17.04.20161206-0ubuntu1) zesty; urgency=medium
+
+  [ Ted Gould ]
+  * Instead of sleeping make the refresh tasks low enough priority they
+    don't get in the way (LP: #1645793)
+  * Start after Unity8 so it has a chance to set the MIR_SOCKET
+
+ -- Michael Terry <michael.terry@canonical.com>  Tue, 06 Dec 2016 14:38:17 +0000
+
+url-dispatcher (0.1+17.04.20161108-0ubuntu1) zesty; urgency=medium
+
+  * Support running inside a snap.
+
+ -- Michael Terry <michael.terry@canonical.com>  Tue, 08 Nov 2016 22:16:56 +0000
+
+url-dispatcher (0.1+17.04.20161107-0ubuntu1) zesty; urgency=medium
+
+  [ Florian Boucault ]
+  * Crossbuilding Fixes
+
+  [ Larry Price ]
+  * App ID should allow package names with dots. (LP: #1591342) (LP: #1606498)
+
+  [ Ted Gould ]
+  * Check versions of appid:// urls to reduce the number of invalid appids
+    we send to UAL (LP: #1352656)
+  * Scope testing for the scope:// URL and overlays that should be over
+    the dash
+  * Protect the dash from getting NULL urls (LP: #1476257)
+  * Make sure URL Overlays are shutdown on exit
+  * Remove the wildcard that is confusing the update script (LP: #1461496)
+  * Not using a message that isn't set properly (LP: #1608009)
+  * Fixing tests to adjust for UAL changes
+  * Add a small GUI helper tool for testing
+  * Show error dialog over apps that use Bad URLs (LP: #1370008)
+
+ -- Ted Gould <ted@gould.cx>  Mon, 07 Nov 2016 16:33:15 +0000
+
+url-dispatcher (0.1+16.10.20160816.1-0ubuntu1) yakkety; urgency=medium
+
+  * No chnage rebuild for UAL migration
+
+ -- Ted Gould <ted@gould.cx>  Tue, 16 Aug 2016 15:20:27 +0000
+
+url-dispatcher (0.1+16.04.20151110-0ubuntu2) xenial; urgency=high
+
+  * No change rebuild for s390x.
+
+ -- Dimitri John Ledkov <xnox@ubuntu.com>  Fri, 11 Dec 2015 01:30:51 +0000
+
+url-dispatcher (0.1+16.04.20151110-0ubuntu1) xenial; urgency=medium
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+  [ Ted Gould ]
+  * Remove the cache if the service fails to start. Fail to start if we
+    can't create the database. (LP: #1483854)
+
+ -- Bill Filler <ci-train-bot@canonical.com>  Tue, 10 Nov 2015 14:37:07 +0000
+
+url-dispatcher (0.1+15.10.20150717-0ubuntu1) wily; urgency=medium
+
+  [ Andreas Pokorny ]
+  * unchagned for mir release 0.14.0
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Fri, 17 Jul 2015 12:37:44 +0000
+
+url-dispatcher (0.1+15.10.20150612-0ubuntu1) wily; urgency=medium
+
+  [ Ted Gould ]
+  * Add upstart build dep for tests on Wily
+  * Provide a small tool to dump the URL DB in a readable form
+  * Support URL Overlays of content in a trusted session without a
+    desktop file
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Fri, 12 Jun 2015 16:00:40 +0000
+
+url-dispatcher (0.1+15.04.20150123-0ubuntu1) vivid; urgency=low
+
+  [ Ted Gould ]
+  * Special handling for intent URLs (LP: #1407709)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 23 Jan 2015 15:19:33 +0000
+
+url-dispatcher (0.1+15.04.20141211-0ubuntu1) vivid; urgency=low
+
+  [ Ted Gould ]
+  * Fix domain handling in generic regular expression (LP: #1401612)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 11 Dec 2014 19:43:40 +0000
+
+url-dispatcher (0.1+15.04.20141031-0ubuntu1) vivid; urgency=low
+
+  [ Ted Gould ]
+  * Making generic regular expression more robust (LP: #1351222)
+
+  [ Jussi Pakkanen ]
+  * General cleanups
+  * Do a rollback when update operations fail so there are no dangling
+    transactions.
+  * Ensure that tables always exist.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 31 Oct 2014 15:51:36 +0000
+
+url-dispatcher (0.1+14.10.20140925-0ubuntu1) utopic; urgency=low
+
+  [ Ted Gould ]
+  * Drop file based URLs for Music and Video (LP: #1340952)
+  * Update tests to work with new UAL requirements (LP: #1370735)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 25 Sep 2014 13:29:40 +0000
+
+url-dispatcher (0.1+14.10.20140905.1-0ubuntu1) utopic; urgency=low
+
+  [ Ted Gould ]
+  * Throw a bad_url on the appid 'unconfined'
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 05 Sep 2014 03:40:44 +0000
+
+url-dispatcher (0.1+14.10.20140827-0ubuntu1) utopic; urgency=low
+
+  [ Ted Gould ]
+  * Split update jobs into independent jobs
+  * Support for unity8-dash URLs even though it's not an application
+    (LP: #1361349)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 27 Aug 2014 02:10:21 +0000
+
+url-dispatcher (0.1+14.10.20140819.1-0ubuntu1) utopic; urgency=low
+
+  [ Ted Gould ]
+  * Ensure send works even without a mainloop (LP: #1356077)
+  * Test replacing a timestamp
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 19 Aug 2014 21:01:10 +0000
+
+url-dispatcher (0.1+14.10.20140724-0ubuntu1) utopic; urgency=low
+
+  [ Ubuntu daily release ]
+  * debian/liburl-dispatcher1.symbols: auto-update to released version
+
+  [ Ted Gould ]
+  * Make the database handle multiple writers more robustly
+  * Add a TestURL function to determine which AppID will be used for a
+    given URL
+
+  [ Leo Arias ]
+  * Add url-dispatcher-testability binary package.
+
+  [ Brendan Donegan ]
+  * Add url-dispatcher-testability binary package.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 24 Jul 2014 17:10:14 +0000
+
+url-dispatcher (0.1+14.10.20140619-0ubuntu1) utopic; urgency=low
+
+  [ Ted Gould ]
+  * Improving error messages and collecting more data
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 19 Jun 2014 02:43:30 +0000
+
+url-dispatcher (0.1+14.10.20140604-0ubuntu1) utopic; urgency=low
+
+  [ Ted Gould ]
+  * Merge and review policies
+  * Recoverable errors on DB errors on update
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 04 Jun 2014 19:07:02 +0000
+
+url-dispatcher (0.1+14.10.20140601-0ubuntu1) utopic; urgency=low
+
+  [ Ted Gould ]
+  * Changing to Ubuntu App Launch
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Sun, 01 Jun 2014 20:53:35 +0000
+
+url-dispatcher (0.1+14.04.20140403-0ubuntu1) trusty; urgency=low
+
+  [ Ted Gould ]
+  * Fix cache directory permissions if they got messed up (LP: #1290997)
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 03 Apr 2014 21:17:00 +0000
+
+url-dispatcher (0.1+14.04.20140331.1-0ubuntu1) trusty; urgency=low
+
+  [ Ted Gould ]
+  * Make it so that URLs can be installed with configuration files.
+  * Switch to using libupstart-app-launch for discovering AppIDs
+  * Migrate test suite to use libclick based libual
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 31 Mar 2014 17:18:43 +0000
+
+url-dispatcher (0.1+14.04.20140217.1-0ubuntu1) trusty; urgency=low
+
+  [ Ted Gould ]
+  * Add tests for the library and service as a binary.
+  * Upgrading to libupstart-app-launch v2.
+  * Flushing trunk with a release
+  * Update Upstart mock for the new UAL
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 17 Feb 2014 17:58:44 +0000
+
+url-dispatcher (0.1+14.04.20131209.1-0ubuntu2) trusty; urgency=low
+
+  * Restrict on which arch we build url-dispatcher due to the ust build-dep
+
+ -- Didier Roche <didrocks@ubuntu.com>  Mon, 09 Dec 2013 13:41:41 +0100
+
+url-dispatcher (0.1+14.04.20131209.1-0ubuntu1) trusty; urgency=low
+
+  * Cherry-pick libupstart-app-launch API/ABI bump from trunk
+
+ -- Łukasz 'sil2100' Zemczak <lukasz.zemczak@canonical.com>  Fri, 06 Dec 2013 14:32:26 +0100
+
+url-dispatcher (0.1+13.10.20131014.2-0ubuntu1) saucy; urgency=low
+
+  [ Michal Hruby ]
+  * Revert the definition change for mediaplayer, it'll remain a non-
+    click app for now.
+
+  [ Ted Gould ]
+  * Adds the appid:// URL format.
+  * Use 'click info' to get the manifest. (LP: #1232118)
+  * Allow custom URIs to have variable based package specifications.
+  * Switching many core apps to Click App ID's.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 38
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Mon, 14 Oct 2013 18:07:27 +0000
+
+url-dispatcher (0.1+13.10.20131003-0ubuntu1) saucy; urgency=low
+
+  [ Ted Gould ]
+  * Enfoce the ///. (LP: #1231444)
+  * Make dispatcher more testable and add some application:/// tests.
+  * Adding a calendar URL. (LP: #1231136)
+  * Adding the alarm URL pattern. (LP: #1233176)
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 32
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 03 Oct 2013 02:08:19 +0000
+
+url-dispatcher (0.1+13.10.20130924.1-0ubuntu1) saucy; urgency=low
+
+  [ Ted Gould ]
+  * Report a recoverable problem on Bad URLs.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 27
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 24 Sep 2013 06:09:10 +0000
+
+url-dispatcher (0.1+13.10.20130919.3-0ubuntu1) saucy; urgency=low
+
+  [ Ted Gould ]
+  * Fix the name of the dialer-app.
+  * Fix the URI environment variable by properly using libupstart-app-
+    launch.
+  * Add URLs for PIM apps.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 25
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 19 Sep 2013 14:05:04 +0000
+
+url-dispatcher (0.1+13.10.20130917.1-0ubuntu1) saucy; urgency=low
+
+  [ Ted Gould ]
+  * Call webbrowser for http/https URLs.
+  * Switch the library relationship to the service to a Suggests.
+  * URLs for music and video application launching.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 21
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Tue, 17 Sep 2013 22:11:05 +0000
+
+url-dispatcher (0.1+13.10.20130823-0ubuntu1) saucy; urgency=low
+
+  [ Ted Gould ]
+  * Adding a URL format for system settings.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 17
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 23 Aug 2013 02:06:01 +0000
+
+url-dispatcher (0.1+13.10.20130726-0ubuntu1) saucy; urgency=low
+
+  [ Łukasz 'sil2100' Zemczak ]
+  * Add symbols file, modify the package's short descriptions.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 15
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Fri, 26 Jul 2013 00:02:46 +0000
+
+url-dispatcher (0.1+13.10.20130725.1-0ubuntu1) saucy; urgency=low
+
+  [ Łukasz 'sil2100' Zemczak ]
+  * Remove debian/watch
+  * debian/control:
+    - Modifications related to compliance with our packaging standards
+  * Add copyright info to the source code
+  * Automatic snapshot from revision 11 (bootstrap)
+  * Additional packaging changes, since some things got missed last
+    time.
+
+  [ Ubuntu daily release ]
+  * Automatic snapshot from revision 13
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Thu, 25 Jul 2013 07:52:47 +0000
+
+url-dispatcher (0.1-0ubuntu1) saucy; urgency=low
+
+  * Start
+
+ -- Ted Gould <ted@ubuntu.com>  Thu, 27 Jun 2013 11:36:18 -0500

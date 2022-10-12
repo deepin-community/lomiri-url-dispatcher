@@ -1,0 +1,5 @@
+liblomiri-url-dispatcher.so.0 liblomiri-url-dispatcher0 #MINVER#
+*Build-Depends-Package: liblomiri-url-dispatcher-dev
+ lomiri_url_dispatch_send@Base 0.1.0
+ lomiri_url_dispatch_send_restricted@Base 0.1.0
+ lomiri_url_dispatch_url_appid@Base 0.1.0

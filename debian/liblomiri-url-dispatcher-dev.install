@@ -1,0 +1,3 @@
+usr/include/liblomiri-url-dispatcher/*
+usr/lib/*/liblomiri-url-dispatcher.so
+usr/lib/*/pkgconfig/lomiri-url-dispatcher.pc

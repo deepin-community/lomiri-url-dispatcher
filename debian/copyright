@@ -1,0 +1,164 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: URL Dispatcher
+Upstream-Contact: Marius Gripsgard <me@mariogrip.com>
+Source:  https://gitlab.com/ubports/core/lomiri-url-dispatcher
+
+
+Files: .bzrignore
+ CMakeLists.txt
+ ChangeLog
+ Jenkinsfile
+ MERGE-REVIEW
+ NEWS
+ README
+ cmake/ConstantBuilderTemplates.cmake
+ cmake/UseConstantBuilder.cmake
+ cmake/UseGlibGeneration.cmake
+ data/CMakeLists.txt
+ data/com.lomiri.URLDispatcher.xml
+ docs/URL*Dispatcher*Architecture.svg
+ gui/CMakeLists.txt
+ gui/lomiri-url-dispatcher-gui.desktop.in
+ gui/lomiri-url-dispatcher-gui.qml
+ gui/lomiri-url-dispatcher-gui.svg
+ liblomiri-url-dispatcher/lomiri-url-dispatcher.pc.in
+ po/CMakeLists.txt
+ po/genpotfiles.sh
+ po/url-dispatcher.pot
+ service/CMakeLists.txt
+ service/bad-url/CMakeLists.txt
+ service/create-db-sql.h
+ service/create-db.sql
+ service/url-overlay/CMakeLists.txt
+ tests/CMakeLists.txt
+ tests/manual
+ tests/overlay-dir/com.test.good_application_1.2.3.desktop
+ tests/test-config.h.in
+ tests/test-sql.sh
+ tests/test-urls-intent/intent-mixed.url-dispatcher
+ tests/test-urls-intent/intent-no-good.url-dispatcher
+ tests/test-urls-intent/intent-single.url-dispatcher
+ tests/test-urls-simple/single-good.url-dispatcher
+ tests/test-urls-varied/bad-filename-suffix.url-launcher
+ tests/test-urls-varied/dup-file-1.url-dispatcher
+ tests/test-urls-varied/dup-file-2.url-dispatcher
+ tests/test-urls-varied/duplicate.url-dispatcher
+ tests/test-urls-varied/lots-o-entries.url-dispatcher
+ tests/test-urls-varied/not-json.url-dispatcher
+ tests/test-urls-varied/object-base.url-dispatcher
+ tests/ual-link-farm/com.test.good_app1_1.2.3.desktop
+ tests/ual-link-farm/com.test.multiple_app-first_1.2.3.desktop
+ tests/url_dispatcher_testability/CMakeLists.txt
+ tests/url_dispatcher_testability/__init__.py
+ tests/xdg-cache/libertine-container/container-id/rootfs/usr/share/applications/org.canonical.app1.desktop
+ tests/xdg-data/applications/foo-bar.desktop
+ tests/xdg-data/libertine/ContainersConfig.json
+ tools/CMakeLists.txt
+ tools/lomiri-url-dispatcher-dump
+Copyright: 2013-2017, Canonical, Ltd.
+License: LGPL-3
+Comment:
+ No license headers in files. Assuming license and copyright holders
+ from other project files (and the COPYING file).
+
+Files: liblomiri-url-dispatcher/lomiri-url-dispatcher.c
+ liblomiri-url-dispatcher/lomiri-url-dispatcher.h
+ service/dispatcher.c
+ service/dispatcher.h
+ service/service.cpp
+ service/update-directory.c
+ service/url-db.c
+ service/url-db.h
+ tests/apparmor-mock.c
+ tests/apparmor-mock.h
+ tests/directory-update-test.cc
+ tests/dispatcher-test.cc
+ tests/lib-test-no-main.c
+ tests/lib-test.cc
+ tests/lomiri-app-launch-mock.c
+ tests/lomiri-app-launch-mock.h
+ tests/service-test.cc
+ tests/url-db-test.cc
+ tools/url-dispatcher.cpp
+Copyright: 2013, Canonical, Ltd.
+  2013-2017, Canonical, Ltd.
+  2014, Canonical, Ltd.
+  2015, Canonical, Ltd.
+  2017, Canonical, Ltd.
+License: LGPL-3
+
+Files: data/bad-url.qml
+ service/bad-url/exec-tool.cpp
+ service/glib-thread.cpp
+ service/glib-thread.h
+ service/overlay-tracker-iface.h
+ service/overlay-tracker-mir.cpp
+ service/overlay-tracker-mir.h
+ service/overlay-tracker.cpp
+ service/overlay-tracker.h
+ service/url-overlay/exec-tool.c
+ tests/systemd-mock.h
+Copyright: 2014, Canonical Ltd.
+  2015, Canonical Ltd.
+  2017, Canonical Ltd.
+License: GPL-3
+
+Files: tests/mir-mock.cpp
+ tests/mir-mock.h
+ tests/overlay-tracker-mock.h
+ tests/overlay-tracker-test.cpp
+Copyright: 2015, Canonical, Ltd.
+License: GPL-3
+
+Files: tests/url_dispatcher_testability/fake_dispatcher.py
+ tests/url_dispatcher_testability/fixture_setup.py
+ tests/url_dispatcher_testability/test_fake_dispatcher.py.in
+Copyright: 2014, Canonical Ltd.
+License: LGPL-3
+
+Files: liblomiri-url-dispatcher/CMakeLists.txt
+Copyright: 2013-2017, Canonical Ltd.
+License: LGPL-3
+Comment:
+ Generated file.
+ .
+ No license headers in files. Assuming license and copyright holders
+ from other project files (and the COPYING file).
+
+Files: debian/*
+Copyright: 2013-2017, Canonical, Ltd.
+  2020, Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+License: LGPL-3
+
+License: LGPL-3
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; version 3 of
+ the License.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-3".
+
+License: GPL-3
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, version 3 of the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the full text of the GNU General Public License
+ version 3 can be found in the file /usr/share/common-licenses/GPL-3.
